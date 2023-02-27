@@ -1,0 +1,30 @@
+// Fonts
+$app-font-primary: 'Flamenco', cursive;
+$font-title: 'Flamenco', cursive;
+
+$font-size-root: 1em;
+$font-size-base: 1rem;
+
+// Media query breakpoints
+$breakpoints: (
+        xs: 480px,
+        sm: 768px,
+        md: 992px,
+        lg: 1200px,
+        xl: 1440px
+);
+
+$text-color: #231F20;
+
+// Cores do tema
+$color-primary: #8CC63F;
+$color-secondary: #006436;
+$light-bg:  #F0E9E9;
+$light-input:#f9eee5;
+$color-grey: #9E9E99;
+
+// Colors Bootstrap Overwrite example
+$theme-colors: (
+      "primary": $color-primary,
+      "secondary": $color-secondary
+);

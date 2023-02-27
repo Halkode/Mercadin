@@ -1,0 +1,2632 @@
+# Translation of Plugins - Simple History – user activity log, audit tool - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Simple History – user activity log, audit tool - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-29 18:19:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Simple History – user activity log, audit tool - Stable (latest release)\n"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:81
+msgctxt "IP Info Dropin"
+msgid "Could not get info about IP address."
+msgstr "Não consegui obter informação sobre o endereço IP."
+
+#: dropins/SimpleHistoryIpInfoDropin.php:77
+msgctxt "IP Info Dropin"
+msgid "Getting IP info ..."
+msgstr "Obtendo informação sobre o IP ..."
+
+#: loggers/SimpleLogger.php:656
+msgid "IP Addresses %1$s"
+msgstr "Endereços IP %1$s"
+
+#: loggers/SimpleLogger.php:629
+msgid "IP Address %1$s"
+msgstr "Endereço IP %1$s"
+
+#: loggers/PluginWPCrontrolLogger.php:412
+msgctxt "PluginWPCrontrolLogger"
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#: loggers/PluginWPCrontrolLogger.php:404
+msgctxt "PluginWPCrontrolLogger"
+msgid "Interval"
+msgstr "Intervalo"
+
+#: loggers/PluginWPCrontrolLogger.php:396
+msgctxt "PluginWPCrontrolLogger"
+msgid "Name"
+msgstr "Nome"
+
+#: loggers/PluginWPCrontrolLogger.php:366
+#: loggers/PluginWPCrontrolLogger.php:373
+msgctxt "PluginWPCrontrolLogger"
+msgid "Recurrence"
+msgstr "Recorrência"
+
+#: loggers/PluginWPCrontrolLogger.php:345
+#: loggers/PluginWPCrontrolLogger.php:352
+msgctxt "PluginWPCrontrolLogger"
+msgid "Next Run"
+msgstr "Próxima execução"
+
+#: loggers/PluginWPCrontrolLogger.php:318
+#: loggers/PluginWPCrontrolLogger.php:331
+msgctxt "PluginWPCrontrolLogger"
+msgid "Arguments"
+msgstr "Argumentos"
+
+#: loggers/PluginWPCrontrolLogger.php:303
+msgctxt "PluginWPCrontrolLogger"
+msgid "Hook"
+msgstr "Gancho"
+
+#: loggers/PluginWPCrontrolLogger.php:84 loggers/PluginWPCrontrolLogger.php:145
+#: loggers/PluginWPCrontrolLogger.php:211
+#: loggers/PluginWPCrontrolLogger.php:221
+#: loggers/PluginWPCrontrolLogger.php:326
+msgctxt "PluginWPCrontrolLogger"
+msgid "None"
+msgstr "Nenhum"
+
+#: loggers/PluginWPCrontrolLogger.php:37
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted cron schedule \"{schedule_name}\""
+msgstr "Excluiu o agendamento cron \"{schedule_name}\""
+
+#: loggers/PluginWPCrontrolLogger.php:36
+msgctxt "PluginWPCrontrolLogger"
+msgid "Added cron schedule \"{schedule_name}\""
+msgstr "Adicionou o agendamento cron \"{schedule_name}\""
+
+#: loggers/PluginWPCrontrolLogger.php:35
+msgctxt "PluginWPCrontrolLogger"
+msgid "Edited cron event \"{event_hook}\""
+msgstr "Editou o evento cron \"{event_hook}\""
+
+#: loggers/PluginWPCrontrolLogger.php:34
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted all \"{event_hook}\" cron events"
+msgstr "Excluiu todos os eventos cron \"{event_hook}\""
+
+#: loggers/PluginWPCrontrolLogger.php:33
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted cron event \"{event_hook}\""
+msgstr "Excluiu o evento cron \"{event_hook}\""
+
+#: loggers/PluginWPCrontrolLogger.php:32
+msgctxt "PluginWPCrontrolLogger"
+msgid "Manually ran cron event \"{event_hook}\""
+msgstr "Executou manualmente o evento cron \"{event_hook}\""
+
+#: loggers/PluginWPCrontrolLogger.php:31
+msgctxt "PluginWPCrontrolLogger"
+msgid "Added cron event \"{event_hook}\""
+msgstr "Adicionou evento cron \"{event_hook}\""
+
+#: loggers/PluginWPCrontrolLogger.php:28
+msgctxt "PluginWPCrontrolLogger"
+msgid "Using plugin WP Crontrol"
+msgstr "Usando o plugin WP Crontrol"
+
+#: loggers/PluginWPCrontrolLogger.php:27
+msgctxt "PluginWPCrontrolLogger"
+msgid "Logs management of cron events"
+msgstr "Gerenciamento de registros de eventos cron"
+
+#: loggers/PluginWPCrontrolLogger.php:26
+msgctxt "PluginWPCrontrolLogger"
+msgid "Plugin: WP Crontrol Logger"
+msgstr "Plugin: Registrador do WP Crontrol"
+
+#: loggers/SimplePluginLogger.php:107
+msgctxt "Plugin was enabled for auto-updates"
+msgid "Disabled auto-updates for plugin \"{plugin_name}\""
+msgstr "Desativou atualizações automáticas para o plugin \"{plugin_name}\""
+
+#: loggers/SimplePluginLogger.php:102
+msgctxt "Plugin was enabled for auto-updates"
+msgid "Enabled auto-updates for plugin \"{plugin_name}\""
+msgstr "Ativou atualizações automáticas para o plugin \"{plugin_name}\""
+
+#: dropins/SimpleHistorySidebarDropin.php:29
+msgctxt "Sidebar box"
+msgid "You can also <a href=\"%1$s\">sponsor me at Github</a>."
+msgstr "Você também pode <a href=\"%1$s\">me patrocinar no Github</a>."
+
+#: loggers/Plugin_BeaverBuilder.php:41
+msgid "Beaver Builder settings saved"
+msgstr "As configurações do Beaver Builder foram salvas"
+
+#: loggers/Plugin_BeaverBuilder.php:37
+msgid "Draft \"{layout_name}\" updated"
+msgstr "Rascunho de \"{layout_name}\" atualizado"
+
+#: loggers/Plugin_BeaverBuilder.php:33
+msgid "Template \"{layout_name}\" updated"
+msgstr "Modelo \"{layout_name}\" atualizado"
+
+#: loggers/Plugin_BeaverBuilder.php:29
+msgid "Layout \"{layout_name}\" updated"
+msgstr "Layout \"{layout_name}\" atualizado"
+
+#: loggers/Plugin_BeaverBuilder.php:22
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Using plugin Beaver Builder"
+msgstr "Usando o plugin Beaver Builder"
+
+#: loggers/Plugin_BeaverBuilder.php:17
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Logs various things in Beaver Builder"
+msgstr "Registra várias coisas do Beaver Builder"
+
+#: loggers/SimpleCategoriesLogger.php:38
+msgctxt "Category logger: search"
+msgid "Term edited"
+msgstr "Termos editados"
+
+#: loggers/SimpleCategoriesLogger.php:35
+msgctxt "Category logger: search"
+msgid "Term deleted"
+msgstr "Termos excluídos"
+
+#: loggers/SimpleCategoriesLogger.php:32
+msgctxt "Category logger: search"
+msgid "Term created"
+msgstr "Termos criados"
+
+#: loggers/SimpleCategoriesLogger.php:29
+msgctxt "Categories logger: search"
+msgid "Categories"
+msgstr "Categorias"
+
+#: loggers/SimpleCategoriesLogger.php:30
+msgctxt "Category logger: search"
+msgid "All category activity"
+msgstr "Todas as atividades de categoria"
+
+#: inc/SimpleHistory.php:1719
+msgid ""
+"\n"
+"Welcome to Simple History!\n"
+"\n"
+"This is the main history feed. It will contain events that this plugin has logged.\n"
+msgstr ""
+"\n"
+"Bem-vindos ao Simple History!\n"
+"\n"
+"Este é o feed principal do histórico. Ele conterá os eventos que este plugin tenha registrado.\n"
+
+#: inc/SimpleHistory.php:1728
+msgid ""
+"\n"
+"Because Simple History was only recently installed, this feed does not display many events yet. As long as the plugin remains activated you will soon see detailed information about page edits, plugin updates, users logging in, and much more.\n"
+msgstr ""
+"\n"
+"Como o Simple History acabou de ser instalado, este feed não exibe muitos eventos ainda. Uma vez que o plugin continue ativado, você logo verá informações detalhadas sobre páginas que foram editadas, plugins atualizados, usuários que acessaram, e muito mais.\n"
+
+#: templates/template-settings-tab-debug.php:296
+msgctxt "debug dropin"
+msgid "No"
+msgstr "Não"
+
+#: templates/template-settings-tab-debug.php:296
+msgctxt "debug dropin"
+msgid "Yes"
+msgstr "Sim"
+
+#: templates/template-settings-tab-debug.php:265
+msgctxt "debug dropin"
+msgid "As returned from <code>get_plugins()</code>"
+msgstr "Conforme retornado por <code>get_plugins()</code>"
+
+#: templates/template-settings-tab-debug.php:263
+msgctxt "debug dropin"
+msgid "Plugins"
+msgstr "Plugins"
+
+#: templates/template-settings-tab-debug.php:24
+msgctxt "debug dropin"
+msgid "Database size"
+msgstr "Tamanho do banco de dados"
+
+#: templates/template-settings-tab-debug.php:222
+msgctxt "debug dropin"
+msgid "No message strings"
+msgstr "Nenhuma mensagem"
+
+#: loggers/class-sh-jetpack-logger.php:32
+msgctxt "Logger: Jetpack"
+msgid "Log Jetpack settings changes"
+msgstr "Registra mudanças nas configurações do Jetpack"
+
+#: loggers/class-sh-jetpack-logger.php:34
+msgctxt "Logger: Jetpack"
+msgid "Using plugin Jetpack"
+msgstr "Usando o plugin Jetpack"
+
+#: loggers/class-sh-jetpack-logger.php:36
+msgctxt "Logger: Jetpack"
+msgid "Activated Jetpack module \"{module_name}\""
+msgstr "Ativou o módulo \"{module_name}\" do Jetpack"
+
+#: loggers/class-sh-jetpack-logger.php:37
+msgctxt "Logger: Jetpack"
+msgid "Deactivated Jetpack module \"{module_name}\""
+msgstr "Desativou o módulo \"{module_name}\" do Jetpack"
+
+#: loggers/class-sh-translations-logger.php:31
+msgctxt "Logger: Translations"
+msgid "Log WordPress translation related things"
+msgstr "Registra itens ligados a tradução no WordPress"
+
+#: loggers/class-sh-translations-logger.php:34
+msgctxt "Logger: Translations"
+msgid "Updated translations for \"{name}\" ({language})"
+msgstr "Atualizou traduções do \"{name}\" ({language})"
+
+#: loggers/class-sh-privacy-logger.php:54
+msgctxt "Logger: Privacy"
+msgid "Removed personal data removal request for \"{user_email}\""
+msgstr "Retirou a solicitação de remoção de dados pessoais de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:53
+msgctxt "Logger: Privacy"
+msgid "Erased personal data for \"{user_email}\""
+msgstr "Apagou os dados pessoais de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:52
+msgctxt "Logger: Privacy"
+msgid "Confirmed data erasure request for \"{user_email}\""
+msgstr "Confirmou a solicitação de remoção de dados de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:51
+msgctxt "Logger: Privacy"
+msgid "Sent data erasure request for \"{user_email}\""
+msgstr "Enviou solicitação de remoção de dados de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:50
+msgctxt "Logger: Privacy"
+msgid "Removed data export request for \"{user_email}\""
+msgstr "Retirou a solicitação para exportação de dados de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:49
+msgctxt "Logger: Privacy"
+msgid "Confirmed data export request for \"{user_email}\""
+msgstr "Confirmou a solicitação para exportação de dados de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:48
+msgctxt "Logger: Privacy"
+msgid "Sent email with personal data export download info for user \"{user_email}\""
+msgstr "Enviou e-mail com informações sobre baixar exportação de dados pessoais de \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:46
+msgctxt "Logger: Privacy"
+msgid "Requested a privacy data export for user \"{user_email}\""
+msgstr "Solicitou uma exportação de dados de privacidade do usuário \"{user_email}\""
+
+#: loggers/class-sh-privacy-logger.php:44
+msgctxt "Logger: Privacy"
+msgid "Created a new privacy page \"{new_post_title}\""
+msgstr "Criou uma nova página de privacidade \"{new_post_title}\""
+
+#: loggers/class-sh-privacy-logger.php:41
+msgctxt "Logger: Privacy"
+msgid "Log WordPress privacy related things"
+msgstr "Registra itens do WordPress ligados a privacidade"
+
+#: loggers/class-sh-privacy-logger.php:45
+msgctxt "Logger: Privacy"
+msgid "Set privacy page to page \"{new_post_title}\""
+msgstr "Definiu como página de privacidade a página \"{new_post_title}\""
+
+#: loggers/class-sh-privacy-logger.php:47
+msgctxt "Logger: Privacy"
+msgid "Downloaded personal data export file for user \"{user_email}\""
+msgstr "Baixou o arquivo de exportação de dados pessoais do usuário \"{user_email}\""
+
+#: loggers/Plugin_Redirection.php:386
+msgctxt "Logger: Redirection"
+msgid "Target"
+msgstr "URL de destino"
+
+#: loggers/Plugin_Redirection.php:369
+msgctxt "Logger: Redirection"
+msgid "Source URL"
+msgstr "URL de origem"
+
+#: loggers/Plugin_Redirection.php:45
+msgctxt "Logger: Redirection"
+msgid "Disabled {items_count} redirection group(s)"
+msgstr "Desativou {items_count} grupo(s) de redirecionamentos"
+
+#: loggers/Plugin_Redirection.php:44
+msgctxt "Logger: Redirection"
+msgid "Enabled {items_count} redirection group(s)"
+msgstr "Ativou {items_count} groupo(s) de redirecionamentos"
+
+#: loggers/Plugin_Redirection.php:43
+msgctxt "Logger: Redirection"
+msgid "Added redirection group \"{group_name}\""
+msgstr "Criou o grupo de redirecionamentos \"{group_name}\""
+
+#: loggers/Plugin_Redirection.php:46
+msgctxt "Logger: Redirection"
+msgid "Deleted {items_count} redirection group(s)"
+msgstr "Excluiu {items_count} grupo(s) de redirecionamento"
+
+#: loggers/Plugin_Redirection.php:41
+msgctxt "Logger: Redirection"
+msgid "Updated redirection options"
+msgstr "Atualizou as opções do Redirection"
+
+#: loggers/Plugin_ACF.php:764
+msgctxt "Logger: Plugin ACF"
+msgid "Modified field"
+msgstr "Modificou um campo"
+
+#: loggers/Plugin_ACF.php:709
+msgctxt "Logger: Plugin ACF"
+msgid "Type: "
+msgstr "Tipo: "
+
+#: loggers/Plugin_ACF.php:703
+msgctxt "Logger: Plugin ACF"
+msgid "Key: "
+msgstr "Chave: "
+
+#: inc/SimpleHistory.php:2313
+msgctxt "Database is being cleared automagically"
+msgid "Simple History removed one event that were older than {days} days"
+msgid_plural "Simple History removed {num_rows} events that were older than {days} days"
+msgstr[0] "O Simple History removeu um evento que ocorreu há mais de {days} dias"
+msgstr[1] "O Simple History removeu {num_rows} eventos que ocorreram há mais de {days} dias"
+
+#: loggers/Plugin_ACF.php:60
+msgctxt "Logger: Plugin ACF"
+msgid "Logs ACF stuff"
+msgstr "Registra eventos do ACF"
+
+#: loggers/Plugin_ACF.php:61
+msgctxt "Logger: Plugin ACF"
+msgid "Using plugin ACF"
+msgstr "Usando o plugin ACF"
+
+#: loggers/Plugin_ACF.php:555
+msgctxt "Logger: Plugin ACF"
+msgid "Instruction placement"
+msgstr "Colocação da instrução"
+
+#: loggers/Plugin_ACF.php:558
+msgctxt "Logger: Plugin ACF"
+msgid "Label placement"
+msgstr "Colocação do rótulo"
+
+#: loggers/Plugin_ACF.php:561
+msgctxt "Logger: Plugin ACF"
+msgid "Description"
+msgstr "Descrição"
+
+#: loggers/Plugin_ACF.php:564
+msgctxt "Logger: Plugin ACF"
+msgid "Menu order"
+msgstr "Ordem do menu"
+
+#: loggers/Plugin_ACF.php:567
+msgctxt "Logger: Plugin ACF"
+msgid "Position"
+msgstr "Posição"
+
+#: loggers/Plugin_ACF.php:570
+msgctxt "Logger: Plugin ACF"
+msgid "Active"
+msgstr "Ativo"
+
+#: loggers/Plugin_ACF.php:573
+msgctxt "Logger: Plugin ACF"
+msgid "Style"
+msgstr "Estilo"
+
+#: loggers/Plugin_ACF.php:605
+msgctxt "Logger: Plugin ACF"
+msgid "Checked"
+msgstr "Marcado"
+
+#: loggers/Plugin_ACF.php:613
+msgctxt "Logger: Plugin ACF"
+msgid "Unchecked"
+msgstr "Desmarcado"
+
+#: loggers/Plugin_ACF.php:626
+msgctxt "Logger: Plugin ACF"
+msgid "Hide on screen"
+msgstr "Ocultar na tela"
+
+#: loggers/Plugin_ACF.php:656
+msgctxt "Logger: Plugin ACF"
+msgid "Deleted field"
+msgid_plural "Deleted fields"
+msgstr[0] "Excluiu um campo"
+msgstr[1] "Excluiu campos"
+
+#: loggers/Plugin_ACF.php:685
+msgctxt "Logger: Plugin ACF"
+msgid "Added field"
+msgid_plural "Added fields"
+msgstr[0] "Adicionou um campo"
+msgstr[1] "Adicionou campos"
+
+#: loggers/Plugin_ACF.php:697
+msgctxt "Logger: Plugin ACF"
+msgid "Name: "
+msgstr "Nome: "
+
+#: loggers/Plugin_ACF.php:700
+msgctxt "Logger: Plugin ACF"
+msgid "Parent: "
+msgstr "Ascendente: "
+
+#: loggers/Plugin_ACF.php:706
+msgctxt "Logger: Plugin ACF"
+msgid "Label: "
+msgstr "Rótulo: "
+
+#: loggers/Plugin_ACF.php:732
+msgctxt "Logger: Plugin ACF"
+msgid "Label: %1$s"
+msgstr "Rótulo: %1$s"
+
+#: loggers/SimpleCategoriesLogger.php:293
+msgctxt "Categories logger: detailed plain text output for created term"
+msgid "Added term <a href=\"{term_edit_link}\">\"{term_name}\"</a> in taxonomy <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+msgstr "Adicionou o termo <a href=\"{term_edit_link}\">\"{term_name}\"</a> à taxonomia <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+
+#: loggers/SimpleCategoriesLogger.php:305
+msgctxt "Categories logger: detailed plain text output for edited term"
+msgid "Edited term <a href=\"{term_edit_link}\">\"{to_term_name}\"</a> in taxonomy <a href=\"{tax_edit_link}\">\"{toTermTaxonomySlugOrName}\"</a>"
+msgstr "Editou o termo <a href=\"{term_edit_link}\">\"{to_term_name}\"</a> da taxonomia <a href=\"{tax_edit_link}\">\"{toTermTaxonomySlugOrName}\"</a>"
+
+#: loggers/SimpleCategoriesLogger.php:299
+msgctxt "Categories logger: detailed plain text output for deleted term"
+msgid "Deleted term \"{term_name}\" from taxonomy <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+msgstr "Excluiu o termo \"{term_name}\" da taxonomia <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+
+#: loggers/SimplePostLogger.php:1437
+msgid "Featured image"
+msgstr "Imagem em destaque"
+
+#: inc/oldversions.php:31
+msgid "Simple History requires WordPress version 5.2 or higher (you have version %s)."
+msgstr "O Simple History requer o WordPress 5.2 ou mais recente (você tem a versão %s)."
+
+#. translators: 1: URL to settings page
+#: dropins/SimpleHistorySidebarSettings.php:71
+msgid "<a href=\"%1$s\">Visit the settings page</a> to change things like the number of events to show and to get access to the RSS feed with all events, and more."
+msgstr "<a href=\"%1$s\">Visite a página de configurações</a> para alterar as definições, como o número de eventos a serem mostrados, e obter acesso ao feed RSS com todos os eventos, entre outras coisas."
+
+#: inc/SimpleHistory.php:3336
+msgid "The slug for a logger in Simple History can be max 30 chars long."
+msgstr "O slug para um registrador no Simple History pode ter no máx. 30 caracteres."
+
+#: loggers/SimplePluginLogger.php:96
+msgctxt "Plugin was disabled because of an error"
+msgid "Deactivated plugin \"{plugin_slug}\" because of an error (\"{deactivation_reason}\")."
+msgstr "Desativou o plugin \"{plugin_slug}\" por causa de um erro (\"{deactivation_reason}\")."
+
+#: dropins/SimpleHistoryWPCLIDropin.php:103
+msgid "Error: parameter \"count\" must be a number"
+msgstr "Erro: o parâmetro \"count\" precisa ser um número"
+
+#: loggers/FileEditsLogger.php:16
+msgid "Edited file \"{file_name}\" in theme \"{theme_name}\""
+msgstr "Editou o arquio \"{file_name}\" no tema \"{theme_name}\""
+
+#: loggers/FileEditsLogger.php:17
+msgid "Edited file \"{file_name}\" in plugin \"{plugin_name}\""
+msgstr "Editou o arquivo \"{file_name}\" no plugin \"{plugin_name}\""
+
+#: loggers/FileEditsLogger.php:22
+msgctxt "Plugin logger: file edits"
+msgid "All file edits"
+msgstr "Todas as edições de arquivo"
+
+#: loggers/FileEditsLogger.php:244
+msgid "File contents"
+msgstr "Conteúdo do arquivo"
+
+#: loggers/FileEditsLogger.php:21
+msgctxt "Plugin logger: file edits"
+msgid "Edited theme and plugin files"
+msgstr "Arquivos de tema e plugin editados"
+
+#: loggers/FileEditsLogger.php:24
+msgctxt "Plugin logger: file edits"
+msgid "Edited theme files"
+msgstr "Arquivos de tema editados"
+
+#: templates/template-settings-tab-debug.php:279
+msgctxt "debug dropin"
+msgid "Plugin name"
+msgstr "Nome do plugin"
+
+#: templates/template-settings-tab-debug.php:280
+msgctxt "debug dropin"
+msgid "Plugin file path"
+msgstr "Caminho do arquivo do plugin"
+
+#: templates/template-settings-tab-debug.php:281
+msgctxt "debug dropin"
+msgid "Active"
+msgstr "Ativo"
+
+#: loggers/Plugin_DuplicatePost.php:20
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Logs posts and pages cloned using plugin Duplicate Post"
+msgstr "Registra posts e páginas clonados com o plugin Duplicate Post"
+
+#: loggers/Plugin_DuplicatePost.php:25
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Using plugin Duplicate Posts"
+msgstr "Usando o plugin Duplicate Posts"
+
+#: loggers/Plugin_DuplicatePost.php:28
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Cloned \"{duplicated_post_title}\" to a new post"
+msgstr "Clonou \"{duplicated_post_title}\" para um novo post"
+
+#: loggers/Plugin_DuplicatePost.php:117
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Cloned {duplicated_post_post_type_singular_name} <a href=\"{duplicated_post_edit_link}\">\"{duplicated_post_title}\"</a> to <a href=\"{new_post_edit_link}\">a new {duplicated_post_post_type_singular_name}</a>"
+msgstr "Clonou {duplicated_post_post_type_singular_name} <a href=\"{duplicated_post_edit_link}\">\"{duplicated_post_title}\"</a> para <a href=\"{new_post_edit_link}\">um novo{duplicated_post_post_type_singular_name}</a>"
+
+#: inc/SimpleHistory.php:1954
+msgid "Number of items per page on the dashboard"
+msgstr "Número de itens por página no painel"
+
+#: inc/SimpleHistory.php:1942
+msgid "Number of items per page on the log page"
+msgstr "Número de itens por página na página do registro"
+
+#: loggers/Plugin_Redirection.php:33
+msgctxt "Logger: Redirection"
+msgid "In plugin Redirection"
+msgstr "No plugin Redirection"
+
+#: loggers/Plugin_Redirection.php:36
+msgctxt "Logger: Redirection"
+msgid "Added a redirection for URL \"{source_url}\""
+msgstr "Adicionou um redirecionamento para o URL \"{source_url}\""
+
+#: loggers/Plugin_Redirection.php:37
+msgctxt "Logger: Redirection"
+msgid "Edited redirection for URL \"{prev_source_url}\""
+msgstr "Editou um redirecionamento para o URL \"{prev_source_url}\""
+
+#: loggers/Plugin_Redirection.php:38
+msgctxt "Logger: Redirection"
+msgid "Enabled redirection for {items_count} URL(s)"
+msgstr "Ativou redirecionamento(s) para {items_count} URL(s)"
+
+#: loggers/Plugin_Redirection.php:39
+msgctxt "Logger: Redirection"
+msgid "Disabled redirection for {items_count} URL(s)"
+msgstr "Desativou redirecionamento(s) de {items_count} URL(s)"
+
+#: loggers/Plugin_Redirection.php:40
+msgctxt "Logger: Redirection"
+msgid "Deleted redirection for {items_count} URL(s)"
+msgstr "Excluiu redirecionamento(s) para {items_count} URL(s)"
+
+#: loggers/Plugin_Redirection.php:42
+msgctxt "Logger: Redirection"
+msgid "Removed all redirection options and deactivated plugin"
+msgstr "Removeu todos as opções do Redirection e desativou o plugin"
+
+#: loggers/AvailableUpdatesLogger.php:303
+msgid "View all updates"
+msgstr "Ver todas as atualizações"
+
+#: loggers/AvailableUpdatesLogger.php:293
+msgid "Installed version"
+msgstr "Versão instalada"
+
+#: loggers/AvailableUpdatesLogger.php:289
+msgid "Available version"
+msgstr "Versão disponível"
+
+#: loggers/AvailableUpdatesLogger.php:51
+msgctxt "Plugin logger: updates found"
+msgid "Theme updates found"
+msgstr "Atualizações de temas encontradas"
+
+#: loggers/AvailableUpdatesLogger.php:43
+msgctxt "Plugin logger: updates found"
+msgid "All found updates"
+msgstr "Todas as atualizações encontradas"
+
+#: loggers/AvailableUpdatesLogger.php:42
+msgctxt "Plugin logger: updates found"
+msgid "WordPress and plugins updates found"
+msgstr "Atualizações do WordPress e plugins encontradas"
+
+#: loggers/AvailableUpdatesLogger.php:38
+msgid "Found an update to theme \"{theme_name}\""
+msgstr "Encontrou uma atualização para o tema \"{theme_name}\""
+
+#: loggers/AvailableUpdatesLogger.php:37
+msgid "Found an update to plugin \"{plugin_name}\""
+msgstr "Encontrou uma atualização para o plugin \"{plugin_name}\""
+
+#: loggers/AvailableUpdatesLogger.php:36
+msgid "Found an update to WordPress"
+msgstr "Encontrou uma atualização para o WordPress."
+
+#: loggers/AvailableUpdatesLogger.php:45
+msgctxt "Plugin logger: updates found"
+msgid "WordPress updates found"
+msgstr "Atualizações do WordPress encontradas"
+
+#: loggers/AvailableUpdatesLogger.php:48
+msgctxt "Plugin logger: updates found"
+msgid "Plugin updates found"
+msgstr "Atualizações de plugins encontradas"
+
+#: dropins/SimpleHistoryFilterDropin.php:604
+msgid "Year"
+msgstr "Ano"
+
+#: dropins/SimpleHistoryFilterDropin.php:603
+msgid "Day"
+msgstr "Dia"
+
+#. translators: 1: month number (01, 02, etc.), 2: month abbreviation
+#: dropins/SimpleHistoryFilterDropin.php:598
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: dropins/SimpleHistoryFilterDropin.php:577
+msgctxt "Filter dropin, custom date range"
+msgid "From"
+msgstr "De"
+
+#. translators: 1: month, 2: day, 3: year
+#: dropins/SimpleHistoryFilterDropin.php:637
+msgid "%1$s %2$s, %3$s"
+msgstr "%1$s %2$s, %3$s "
+
+#: dropins/SimpleHistoryFilterDropin.php:580
+msgctxt "Filter dropin, custom date range"
+msgid "To"
+msgstr "Até"
+
+#: dropins/SimpleHistoryFilterDropin.php:167
+msgctxt "Filter dropin: filter custom range"
+msgid "Custom date range..."
+msgstr "Intervalo personalizado..."
+
+#: loggers/Plugin_LimitLoginAttempts.php:19
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Logs failed login attempts, lockouts, and configuration changes made in the plugin Limit Login Attempts"
+msgstr "Registra falhas em tentativas de acesso, bloqueios e alterações da configuração feitas no plugin Limit Login Attempts"
+
+#: loggers/Plugin_LimitLoginAttempts.php:20
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Using plugin Limit Login Attempts"
+msgstr "Usando o plugin Limit Login Attempts"
+
+#: loggers/Plugin_LimitLoginAttempts.php:24
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Failed login attempt from whitelisted IP"
+msgstr "Falhou em tentativa de acesso com IP autorizado"
+
+#: loggers/Plugin_LimitLoginAttempts.php:25
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Was locked out because too many failed login attempts"
+msgstr "Foi bloqueado devido a muitas falhas em tentativas de acesso"
+
+#: loggers/Plugin_LimitLoginAttempts.php:26
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Cleared IP log"
+msgstr "Limpou o registro de IP"
+
+#: loggers/Plugin_LimitLoginAttempts.php:27
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Reset lockout count"
+msgstr "Redefiniu a contagem de bloqueios"
+
+#: loggers/Plugin_LimitLoginAttempts.php:28
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Cleared current lockouts"
+msgstr "Liberou os bloqueios atuais"
+
+#: loggers/Plugin_LimitLoginAttempts.php:29
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Updated options"
+msgstr "Atualizou opções"
+
+#: loggers/Plugin_LimitLoginAttempts.php:207
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%1$d failed login attempts (%2$d lockout(s)) from IP: %3$s"
+msgstr "%1$d falhas em tentativas de acesso (%2$d bloqueio(s)) do IP: %3$s"
+
+#: loggers/Plugin_LimitLoginAttempts.php:214
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
+
+#: loggers/Plugin_LimitLoginAttempts.php:216
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
+
+#: loggers/Plugin_LimitLoginAttempts.php:220
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "IP was blocked for %1$s"
+msgstr "O IP foi bloqueado por %1$s"
+
+#: loggers/SimplePluginLogger.php:76
+msgctxt "Plugin update failed"
+msgid "Failed to update plugin \"{plugin_name}\""
+msgstr "Não conseguiu atualizar o plugin \"{plugin_name}\""
+
+#: loggers/SimpleThemeLogger.php:38
+msgid "Updated theme \"{theme_name}\""
+msgstr "Atualizou o tema \"{theme_name}\""
+
+#: loggers/SimpleThemeLogger.php:51
+msgctxt "Theme logger: search"
+msgid "Updated themes"
+msgstr "Temas atualizados"
+
+#: loggers/SimpleThemeLogger.php:54
+msgctxt "Theme logger: search"
+msgid "Deleted themes"
+msgstr "Temas excluídos"
+
+#: loggers/SimpleThemeLogger.php:57
+msgctxt "Theme logger: search"
+msgid "Installed themes"
+msgstr "Temas instalados"
+
+#: dropins/SimpleHistoryFilterDropin.php:342
+msgctxt "Filter label"
+msgid "Message types:"
+msgstr "Tipos de mensagem:"
+
+#: dropins/SimpleHistoryFilterDropin.php:288
+msgctxt "Filter label"
+msgid "Log levels:"
+msgstr "Níveis de registro:"
+
+#: dropins/SimpleHistoryFilterDropin.php:430
+msgctxt "Filter label"
+msgid "Users:"
+msgstr "Usuários:"
+
+#: dropins/SimpleHistoryFilterDropin.php:153
+msgctxt "Filter label"
+msgid "Dates:"
+msgstr "Datas:"
+
+#: dropins/SimpleHistoryFilterDropin.php:253
+msgctxt "Filter label"
+msgid "Containing words:"
+msgstr "Contendo as palavras:"
+
+#: templates/template-settings-tab-debug.php:60
+msgctxt "debug dropin"
+msgid "Table name"
+msgstr "Nome da tabela"
+
+#: templates/template-settings-tab-debug.php:61
+msgctxt "debug dropin"
+msgid "Size"
+msgstr "Tamanho"
+
+#: templates/template-settings-tab-debug.php:62
+msgctxt "debug dropin"
+msgid "Rows"
+msgstr "Linhas"
+
+#: templates/template-settings-tab-debug.php:69
+msgctxt "debug dropin"
+msgid "%s rows"
+msgstr "%s linhas"
+
+#: templates/template-settings-tab-debug.php:171
+msgctxt "debug dropin"
+msgid "Slug"
+msgstr "Slug"
+
+#: templates/template-settings-tab-debug.php:172
+msgctxt "debug dropin"
+msgid "Description"
+msgstr "Descrição"
+
+#: templates/template-settings-tab-debug.php:173
+msgctxt "debug dropin"
+msgid "Messages"
+msgstr "Mensagens"
+
+#: templates/template-settings-tab-debug.php:174
+msgctxt "debug dropin"
+msgid "Capability"
+msgstr "Capacidade"
+
+#: templates/template-settings-tab-debug.php:67
+msgctxt "debug dropin"
+msgid "%s MB"
+msgstr "%s MB"
+
+#: templates/template-settings-tab-debug.php:100
+msgctxt "debug dropin"
+msgid "Total %s rows, when grouped by occasion id."
+msgstr "Total de %s linhas, quando agrupadas pelo id de ocasião."
+
+#: templates/template-settings-tab-debug.php:146
+msgctxt "debug dropin"
+msgid "Loggers"
+msgstr "Registradores"
+
+#: templates/template-settings-tab-debug.php:151
+msgctxt "debug dropin"
+msgid "Listing %1$d loggers, ordered by rows count in database."
+msgstr "Lista com %1$d registradores, ordenada pelo total de linhas no banco de dados."
+
+#: templates/template-settings-tab-debug.php:175
+msgctxt "debug dropin"
+msgid "Rows count"
+msgstr "Total de linhas"
+
+#: loggers/SimpleOptionsLogger.php:162
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: templates/template-settings-tab-debug.php:170
+msgctxt "debug dropin"
+msgid "Logger name"
+msgstr "Nome do registrador"
+
+#: dropins/SimpleHistorySettingsDebugDropin.php:23
+msgid "Debug"
+msgstr "Depuração"
+
+#: templates/template-settings-tab-debug.php:205
+msgctxt "debug dropin"
+msgid "%1$s message strings"
+msgstr "%1$s mensagens"
+
+#: loggers/SimpleOptionsLogger.php:298 loggers/SimpleOptionsLogger.php:322
+msgid "Your latests posts"
+msgstr "Seus últimos posts"
+
+#: loggers/SimpleOptionsLogger.php:291 loggers/SimpleOptionsLogger.php:314
+msgid "Page %1$s"
+msgstr "Página %1$s"
+
+#: inc/SimpleHistory.php:415
+msgctxt "Admin bar name"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/SimpleHistory.php:355
+msgctxt "Admin bar network name"
+msgid "View History"
+msgstr "Ver o histórico"
+
+#: loggers/SimpleUserLogger.php:1016
+msgctxt "User logger"
+msgid "Notification"
+msgstr "Notificação"
+
+#: loggers/SimpleUserLogger.php:970
+msgctxt "User logger"
+msgid "Password"
+msgstr "Senha"
+
+#: loggers/SimpleUserLogger.php:971
+msgctxt "User logger"
+msgid "Changed"
+msgstr "Alterado"
+
+#: loggers/SimpleUserLogger.php:890
+msgctxt "User logger"
+msgid "Email"
+msgstr "E-mail"
+
+#: loggers/SimpleUserLogger.php:905
+msgctxt "User logger"
+msgid "Jabber / Google Talk "
+msgstr "Jabber / Google Talk "
+
+#: loggers/SimpleUserLogger.php:583
+msgid "Created user <a href=\"{edit_profile_link}\">{created_user_login} ({created_user_email})</a> with role {created_user_role}"
+msgstr "Criou o usuário <a href=\"{edit_profile_link}\">{created_user_login} ({created_user_email})</a> com a função {created_user_role}"
+
+#: loggers/SimpleUserLogger.php:881 loggers/SimpleUserLogger.php:987
+msgctxt "User logger"
+msgid "Last name"
+msgstr "Sobrenome"
+
+#: loggers/SimpleUserLogger.php:878 loggers/SimpleUserLogger.php:984
+msgctxt "User logger"
+msgid "First name"
+msgstr "Nome"
+
+#: loggers/SimpleUserLogger.php:884
+msgctxt "User logger"
+msgid "Nickname"
+msgstr "Apelido"
+
+#: loggers/SimpleUserLogger.php:896
+msgctxt "User logger"
+msgid "Description"
+msgstr "Descrição"
+
+#: loggers/SimpleUserLogger.php:851
+msgctxt "User logger"
+msgid "Visual editor"
+msgstr "Editor visual"
+
+#: loggers/SimpleUserLogger.php:860
+msgctxt "User logger"
+msgid "Keyboard shortcuts"
+msgstr "Atalho de teclado"
+
+#: loggers/SimpleUserLogger.php:857
+msgctxt "User logger"
+msgid "Colour scheme"
+msgstr "Esquema de cores"
+
+#: loggers/SimpleUserLogger.php:899
+msgctxt "User logger"
+msgid "AIM"
+msgstr "AIM"
+
+#: loggers/SimpleUserLogger.php:902
+msgctxt "User logger"
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: loggers/SimpleUserLogger.php:887
+msgctxt "User logger"
+msgid "Display name"
+msgstr "Nome de exibição"
+
+#: loggers/SimpleUserLogger.php:893 loggers/SimpleUserLogger.php:990
+msgctxt "User logger"
+msgid "Website"
+msgstr "Site"
+
+#: loggers/SimpleUserLogger.php:875
+msgctxt "User logger"
+msgid "Role"
+msgstr "Função"
+
+#: loggers/SimpleUserLogger.php:993
+msgctxt "User logger"
+msgid "User notification email sent"
+msgstr "E-mail de notificação ao usuário enviado"
+
+#: loggers/SimpleUserLogger.php:1001
+msgctxt "User logger"
+msgid "Yes, email with account details was sent"
+msgstr "Sim, um e-mail com detalhes da conta foi enviado"
+
+#: dropins/SimpleHistorySidebarStats.php:163
+msgid "<b>%1$s events</b> have been logged the last <b>%2$s days</b>."
+msgstr "<b>%1$s eventos</b> registrados nos últimos <b>%2$s dias</b>."
+
+#: dropins/SimpleHistorySidebarStats.php:181
+msgid "Number of events per day."
+msgstr "Número de eventos por dia."
+
+#: loggers/PluginEnableMediaReplaceLogger.php:25
+msgctxt "PluginUserSwitchingLogger"
+msgid "Using plugin Enable Media Replace"
+msgstr "Usando o plugin Enable Media Replace"
+
+#: loggers/PluginUserSwitchingLogger.php:27
+msgctxt "PluginUserSwitchingLogger"
+msgid "Using plugin User Switching"
+msgstr "Usando o plugin User Switching"
+
+#: dropins/SimpleHistoryDonateDropin.php:57
+msgid "If you find Simple History useful please <a href=\"%1$s\">donate</a>."
+msgstr "Se você acha que o Simple History é útil, por favor <a href=\"%1$s\">faça uma doação</a>."
+
+#: dropins/SimpleHistorySidebarDropin.php:73
+msgctxt "Sidebar box"
+msgid "Support"
+msgstr "Suporte"
+
+#: inc/SimpleHistory.php:1857
+msgctxt "dashboard title name"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/SimpleHistory.php:1874
+msgctxt "Options page menu title"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: dropins/SimpleHistorySidebarDropin.php:74
+msgctxt "Sidebar box"
+msgid "<a href=\"%1$s\">Visit the support forum</a> if you need help or have questions."
+msgstr "<a href=\"%1$s\">Visite o fórum de suporte (em inglês)</a> se precisar de ajuda ou tiver dúvidas."
+
+#: loggers/SimpleCategoriesLogger.php:20
+msgid "Categories Logger"
+msgstr "Registrador de categorias"
+
+#: loggers/SimpleCategoriesLogger.php:23
+msgid "Added term \"{term_name}\" in taxonomy \"{term_taxonomy}\""
+msgstr "Adicionou o termo \"{term_name}\" na taxonomia \"{term_taxonomy}\""
+
+#: loggers/SimpleCategoriesLogger.php:24
+msgid "Deleted term \"{term_name}\" from taxonomy \"{term_taxonomy}\""
+msgstr "Excluiu o termo \"{term_name}\" da taxonomia \"{term_taxonomy}\""
+
+#: loggers/SimpleCategoriesLogger.php:25
+msgid "Edited term \"{to_term_name}\" in taxonomy \"{to_term_taxonomy}\""
+msgstr "Editou o term \"{to_term_name}\" na taxonomia \"{to_term_taxonomy}\""
+
+#: loggers/SimpleUserLogger.php:18
+msgid "User Logger"
+msgstr "Registrador de usuários"
+
+#: loggers/SimpleUserLogger.php:19
+msgid "Logs user logins, logouts, and failed logins"
+msgstr "Registra os acessos, saídas e falhas em acesso de usuários"
+
+#: loggers/SimpleUserLogger.php:22
+msgid "Failed to login with username \"{login}\" (incorrect password entered)"
+msgstr "Não conseguiu acessar com o nome de usuário \"{login}\" (senha incorreta)"
+
+#: loggers/SimpleUserLogger.php:26
+msgid "Failed to login with username \"{failed_username}\" (username does not exist)"
+msgstr "Não conseguiu acessar com o nome de usuário \"{failed_username}\" (nome de usuário inexistente)"
+
+#: dropins/SimpleHistoryRSSDropin.php:143
+msgid "Enable RSS feed"
+msgstr "Ativar o feed RSS"
+
+#: loggers/SimpleLogger.php:484
+msgid "%1$s local time %3$s (%2$s GMT time)"
+msgstr "%1$s hora local %3$s (%2$s GMT)"
+
+#: loggers/SimpleUserLogger.php:42
+msgid "Reset their password"
+msgstr "Redefiniu sua senha"
+
+#: loggers/SimpleUserLogger.php:43
+msgid "Requested a password reset link for user with login '{user_login}' and email '{user_email}'"
+msgstr "Solicitou um link para redefinição de senha para o usuário com login '{user_login}' e e-mail '{user_email}'"
+
+#: dropins/SimpleHistoryFilterDropin.php:175
+msgctxt "Filter dropin: filter days"
+msgid "Last day"
+msgstr "Último dia"
+
+#: dropins/SimpleHistoryRSSDropin.php:68
+msgid "Enable"
+msgstr "Ativar"
+
+#: inc/SimpleHistory.php:1412
+msgid "Hm, the log could not be loaded right now. Perhaps another plugin is giving some errors. Anyway, below is the output I got from the server."
+msgstr "Epa! Não foi possível carregar o registro agora. Talvez um outro plugin esteja retornando alguns erros. De qualquer maneira, segue abaixo o que foi enviado pelo servidor."
+
+#: loggers/SimpleCoreUpdatesLogger.php:65
+msgid "WordPress database version updated to {new_version} from {prev_version}"
+msgstr "O versão do banco de dados do WordPress foi atualizada de {prev_version} para {new_version}"
+
+#: templates/settings-statsRowsPerDay.php:6
+msgid "Rows per day"
+msgstr "Linhas por dia"
+
+#: templates/settings-statsUsers.php:6
+msgid "Users"
+msgstr "Usuários"
+
+#. Author of the plugin
+msgid "Pär Thernström"
+msgstr "Pär Thernström"
+
+#. Plugin URI of the plugin
+msgid "http://simple-history.com"
+msgstr "http://simple-history.com"
+
+#. Author URI of the plugin
+msgid "http://simple-history.com/"
+msgstr "http://simple-history.com/"
+
+#. Description of the plugin
+msgid "Plugin that logs various things that occur in WordPress and then presents those events in a very nice GUI."
+msgstr "Um plugin que registra várias coisas que ocorrem no WordPress e aí apresenta esses eventos numa GUI bem legal."
+
+#: templates/settings-statsUsers.php:9
+msgid "Deleted users are also included."
+msgstr "Os usuários excluídos também contam."
+
+#: templates/settings-statsLogLevels.php:8
+msgid "Number of rows logged for each log level."
+msgstr "Número de linhas registradas para cada nível de registro."
+
+#: templates/settings-statsForGeeks.php:110
+#: templates/settings-statsLoggers.php:5
+msgid "Loggers"
+msgstr "Registradores"
+
+#: templates/settings-statsUsers.php:8
+msgid "Number of logged items for the 5 users with most logged rows."
+msgstr "Número de itens registrados para os 5 usuários com mais linhas registradas."
+
+#: templates/settings-statsLogLevels.php:6
+msgid "Log levels"
+msgstr "Níveis de registro"
+
+#: dropins/SimpleHistorySidebarStats.php:191
+#: templates/settings-statsRowsPerDay.php:37
+msgctxt "stats: date in rows per day chart"
+msgid "M j"
+msgstr "j \\d\\e M"
+
+#: loggers/SimpleCommentsLogger.php:596 loggers/SimpleCommentsLogger.php:606
+#: loggers/SimpleCommentsLogger.php:618
+msgctxt "comments logger - detailed output comment status"
+msgid "Status"
+msgstr "Status"
+
+#: loggers/SimpleCommentsLogger.php:598 loggers/SimpleCommentsLogger.php:608
+#: loggers/SimpleCommentsLogger.php:620
+msgctxt "comments logger - detailed output author"
+msgid "Name"
+msgstr "Nome"
+
+#: loggers/SimpleCommentsLogger.php:599 loggers/SimpleCommentsLogger.php:609
+#: loggers/SimpleCommentsLogger.php:621
+msgctxt "comments logger - detailed output email"
+msgid "Email"
+msgstr "E-mail"
+
+#: loggers/SimpleCommentsLogger.php:600 loggers/SimpleCommentsLogger.php:610
+msgctxt "comments logger - detailed output content"
+msgid "Content"
+msgstr "Conteúdo"
+
+#: loggers/SimpleCommentsLogger.php:622
+msgctxt "comments logger - detailed output content"
+msgid "Comment"
+msgstr "Comentário"
+
+#: loggers/SimpleCommentsLogger.php:670
+msgid "Spam"
+msgstr "Spam"
+
+#: loggers/SimpleCommentsLogger.php:672
+msgid "Approved"
+msgstr "Aprovado"
+
+#: loggers/SimpleCommentsLogger.php:674
+msgid "Pending"
+msgstr "Pendente"
+
+#: loggers/SimpleCommentsLogger.php:685
+msgid "Trackback"
+msgstr "Trackback"
+
+#: loggers/SimpleCommentsLogger.php:687
+msgid "Pingback"
+msgstr "Pingback"
+
+#: loggers/SimpleCommentsLogger.php:689
+msgid "Comment"
+msgstr "Comentário"
+
+#: loggers/SimpleExportLogger.php:27
+msgctxt "Export logger: search"
+msgid "Export"
+msgstr "Exportação"
+
+#: loggers/SimpleLogger.php:302
+msgctxt "header output when initiator is the currently logged in user"
+msgid "You"
+msgstr "Você"
+
+#: dropins/SimpleHistoryWPCLIDropin.php:85 loggers/SimpleLogger.php:347
+msgid "Anonymous web user"
+msgstr "Usuário web anônimo"
+
+#: dropins/SimpleHistoryWPCLIDropin.php:88 loggers/SimpleLogger.php:355
+msgctxt "Event header output, when initiator is unknown"
+msgid "Other"
+msgstr "Outro"
+
+#: loggers/SimpleLogger.php:472
+msgid "%1$s ago"
+msgstr "%1$s atrás"
+
+#: loggers/SimpleMediaLogger.php:30
+msgctxt "Media logger: search"
+msgid "Media"
+msgstr "Mídia"
+
+#: loggers/SimpleMediaLogger.php:221
+msgid "{attachment_thumb}"
+msgstr "{attachment_thumb}"
+
+#: loggers/SimpleMediaLogger.php:229
+msgid "{attachment_size_format}"
+msgstr "{attachment_size_format}"
+
+#: loggers/SimpleMediaLogger.php:230
+msgid "{attachment_filetype_extension}"
+msgstr "{attachment_filetype_extension}"
+
+#: loggers/SimpleMediaLogger.php:233
+msgid "{full_image_width} × {full_image_height}"
+msgstr "{full_image_width} × {full_image_height}"
+
+#: loggers/SimpleMenuLogger.php:32
+msgctxt "Menu logger: search"
+msgid "Menus"
+msgstr "Menus"
+
+#: loggers/SimpleOptionsLogger.php:37
+msgctxt "Options logger: search"
+msgid "Options"
+msgstr "Opções"
+
+#: loggers/SimpleOptionsLogger.php:178 loggers/SimpleOptionsLogger.php:290
+#: loggers/SimpleOptionsLogger.php:297 loggers/SimpleOptionsLogger.php:383
+#: loggers/SimpleThemeLogger.php:557
+msgid "New value"
+msgstr "Novo valor"
+
+#: loggers/SimpleOptionsLogger.php:201 loggers/SimpleOptionsLogger.php:216
+msgid "Settings page"
+msgstr "Página de configurações"
+
+#: loggers/SimplePluginLogger.php:116
+msgctxt "Plugin logger: search"
+msgid "Plugins"
+msgstr "Plugins"
+
+#: loggers/SimplePluginLogger.php:549
+msgid "You don't have access to this page."
+msgstr "Você não tem acesso a esta página."
+
+#: loggers/SimplePluginLogger.php:555 loggers/SimplePluginLogger.php:560
+msgid "Could not find GitHub repository."
+msgstr "Não foi possível encontrar repositório GitHub."
+
+#: loggers/SimplePluginLogger.php:1113
+msgctxt "plugin logger - detailed output"
+msgid "Description"
+msgstr "Descrição"
+
+#: loggers/SimplePluginLogger.php:1114
+msgctxt "plugin logger - detailed output install source"
+msgid "Source"
+msgstr "Origem"
+
+#: loggers/SimplePluginLogger.php:1116
+msgctxt "plugin logger - detailed output version"
+msgid "Version"
+msgstr "Versão"
+
+#: loggers/SimplePluginLogger.php:1117
+msgctxt "plugin logger - detailed output author"
+msgid "Author"
+msgstr "Autor"
+
+#: loggers/SimplePluginLogger.php:1118
+msgctxt "plugin logger - detailed output url"
+msgid "URL"
+msgstr "URL"
+
+#: loggers/SimplePluginLogger.php:1158
+msgid "WordPress Plugin Repository"
+msgstr "Repositório de Plugins do WordPress"
+
+#: loggers/SimplePostLogger.php:222
+msgctxt "Post logger: search"
+msgid "Posts & Pages"
+msgstr "Posts & Páginas"
+
+#: loggers/SimplePostLogger.php:226
+msgctxt "Post logger: search"
+msgid "Posts updated"
+msgstr "Posts atualizados"
+
+#: loggers/SimplePostLogger.php:1017
+msgid "Title"
+msgstr "Título"
+
+#: loggers/SimplePostLogger.php:1029
+msgid "Content"
+msgstr "Conteúdo"
+
+#: loggers/SimplePostLogger.php:1041
+msgid "Status"
+msgstr "Status"
+
+#: loggers/SimplePostLogger.php:1053
+msgid "Publish date"
+msgstr "Data de publicação"
+
+#: loggers/SimplePostLogger.php:1067
+msgid "Permalink"
+msgstr "Link permanente"
+
+#: loggers/SimplePostLogger.php:1080
+msgid "Comment status"
+msgstr "Status do comentário"
+
+#: loggers/SimplePostLogger.php:1106
+msgid "Author"
+msgstr "Autor"
+
+#: loggers/SimplePostLogger.php:1226
+msgid "Custom fields"
+msgstr "Campos personalizados"
+
+#: loggers/SimpleThemeLogger.php:48
+msgctxt "Theme logger: search"
+msgid "Themes & Widgets"
+msgstr "Widgets & Temas"
+
+#: loggers/SimpleThemeLogger.php:523
+msgid "Section"
+msgstr "Seção"
+
+#: loggers/SimpleUserLogger.php:80
+msgctxt "User logger: search"
+msgid "Users"
+msgstr "Usuários"
+
+#: loggers/SimpleUserLogger.php:94
+msgctxt "User logger: search"
+msgid "Created users"
+msgstr "Usuários criados"
+
+#: loggers/SimpleMediaLogger.php:26
+msgid "Deleted {post_type} \"{attachment_title}\" (\"{attachment_filename}\")"
+msgstr "Excluiu {post_type} \"{attachment_title}\" (\"{attachment_filename}\")"
+
+#: loggers/SimplePostLogger.php:217 loggers/SimplePostLogger.php:969
+msgid "Deleted {post_type} \"{post_title}\""
+msgstr "Excluiu {post_type} \"{post_title}\""
+
+#: loggers/SimplePostLogger.php:228
+msgctxt "Post logger: search"
+msgid "Posts deleted"
+msgstr "Posts excluídos"
+
+#: loggers/SimpleMenuLogger.php:26
+msgid "Deleted menu \"{menu_name}\""
+msgstr "Excluiu o menu \"{menu_name}\""
+
+#: loggers/SimplePluginLogger.php:82
+msgctxt "Plugin files was deleted"
+msgid "Deleted plugin \"{plugin_name}\""
+msgstr "Excluiu o plugin \"{plugin_name}\""
+
+#: loggers/SimpleThemeLogger.php:41
+msgid "Added widget \"{widget_id_base}\" to sidebar \"{sidebar_id}\""
+msgstr "Adicionou o widget \"{widget_id_base}\" na barra lateral \"{sidebar_id}\""
+
+#: loggers/SimpleMenuLogger.php:28
+msgid "Updated menu locations"
+msgstr "Atualizou as localizações de menu"
+
+#: loggers/SimpleOptionsLogger.php:25
+msgid "Updated option \"{option}\""
+msgstr "Atualizou a opção \"{option}\""
+
+#: loggers/SimplePluginLogger.php:70
+msgctxt "Plugin was updated"
+msgid "Updated plugin \"{plugin_name}\" to version {plugin_version} from {plugin_prev_version}"
+msgstr "Atualizou o plugin \"{plugin_name}\" da versão {plugin_prev_version} para a {plugin_version}"
+
+#: loggers/SimpleCoreUpdatesLogger.php:63
+msgid "Updated WordPress to {new_version} from {prev_version}"
+msgstr "Atualizou o WordPress de {prev_version} para {new_version}"
+
+#: loggers/SimpleCoreUpdatesLogger.php:64
+msgid "WordPress auto-updated to {new_version} from {prev_version}"
+msgstr "O WordPress fez a auto-atualização de {prev_version} para {new_version}"
+
+#: loggers/SimplePluginLogger.php:89
+msgctxt "Plugin was updated in bulk"
+msgid "Updated plugin \"{plugin_name}\" to {plugin_version} from {plugin_prev_version}"
+msgstr "Atualizou o plugin \"{plugin_name}\" de {plugin_prev_version} para {plugin_version}"
+
+#: loggers/SimplePostLogger.php:215
+msgid "Updated {post_type} \"{post_title}\""
+msgstr "Atualizou {post_type} \"{post_title}\""
+
+#: loggers/SimplePostLogger.php:967
+msgid "Updated {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+msgstr "Atualizou {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+
+#: loggers/SimpleUserLogger.php:30
+msgid "Logged in"
+msgstr "Acessou"
+
+#: loggers/SimpleUserLogger.php:31
+msgid "Unknown user logged in"
+msgstr "Usuário desconhecido acessou"
+
+#: loggers/SimpleUserLogger.php:32
+msgid "Logged out"
+msgstr "Saiu"
+
+#: loggers/SimpleUserLogger.php:47
+msgctxt "User destroys other login sessions for themself"
+msgid "Logged out from all other sessions"
+msgstr "Saiu de todas as outras sessões"
+
+#: loggers/SimpleUserLogger.php:52
+msgctxt "User destroys all login sessions for a user"
+msgid "Logged out \"{user_display_name}\" from all sessions"
+msgstr "Desconectou \"{user_display_name}\" de todas as sessões"
+
+#: templates/settings-statsIntro.php:20
+msgid "<b>%1$s rows</b> have been logged the last <b>%2$s days</b>"
+msgstr "<b>%1$s linhas</b> foram registradas nos últimos <b>%2$s dias</b>"
+
+#: loggers/SimpleCommentsLogger.php:743
+msgctxt "comments logger - edit comment"
+msgid "View/Edit"
+msgstr "Ver/Editar"
+
+#: loggers/SimplePluginLogger.php:1219 loggers/SimplePluginLogger.php:1233
+#: loggers/SimplePluginLogger.php:1270
+msgctxt "plugin logger: plugin info thickbox title view all info"
+msgid "View plugin info"
+msgstr "Ver informações do plugin"
+
+#: loggers/SimplePluginLogger.php:1243
+msgctxt "plugin logger: plugin info thickbox title"
+msgid "View plugin info"
+msgstr "Ver informações do plugin"
+
+#: loggers/SimplePluginLogger.php:1247
+msgctxt "plugin logger: plugin info thickbox title"
+msgid "View changelog"
+msgstr "Ver o registro de alterações"
+
+#: loggers/SimpleCoreUpdatesLogger.php:69
+msgctxt "User logger: search"
+msgid "WordPress Core"
+msgstr "Arquivos básicos do WordPress"
+
+#: loggers/SimpleExportLogger.php:19
+msgid "Export Logger"
+msgstr "Registrador de exportações"
+
+#: loggers/SimpleExportLogger.php:20
+msgid "Logs updates to WordPress export"
+msgstr "Registra atualizações do exportador do WordPress"
+
+#: loggers/SimpleExportLogger.php:23
+msgid "Created XML export"
+msgstr "Criou exportação em XML"
+
+#: loggers/SimpleMediaLogger.php:24
+msgid "Created {post_type} \"{attachment_title}\""
+msgstr "Criou {post_type} \"{attachment_title}\""
+
+#: loggers/SimpleMediaLogger.php:25
+msgid "Edited {post_type} \"{attachment_title}\""
+msgstr "Editou {post_type} \"{attachment_title}\""
+
+#: loggers/SimpleMediaLogger.php:107
+msgid "Edited {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+msgstr "Editou {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+
+#: loggers/SimpleMediaLogger.php:127
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+msgstr "Enviou {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+
+#: loggers/SimpleMenuLogger.php:24
+msgid "Created menu \"{menu_name}\""
+msgstr "Criou o menu \"{menu_name}\""
+
+#: loggers/SimpleMenuLogger.php:25
+msgid "Edited menu \"{menu_name}\""
+msgstr "Editou o menu \"{menu_name}\""
+
+#: loggers/SimpleMenuLogger.php:27
+msgid "Edited a menu item"
+msgstr "Editou um item de menu"
+
+#: loggers/SimpleMenuLogger.php:294
+msgctxt "menu logger"
+msgid "%1$s menu item added"
+msgid_plural "%1$s menu items added"
+msgstr[0] "%1$s item de menu adicionado"
+msgstr[1] "%1$s itens de menu adicionados"
+
+#: loggers/SimpleMenuLogger.php:301
+msgctxt "menu logger"
+msgid "%1$s menu item removed"
+msgid_plural "%1$s menu items removed"
+msgstr[0] "%1$s item de menu removido"
+msgstr[1] "%1$s itens de menu removidos"
+
+#: loggers/SimpleOptionsLogger.php:184 loggers/SimpleOptionsLogger.php:313
+#: loggers/SimpleOptionsLogger.php:321 loggers/SimpleOptionsLogger.php:375
+#: loggers/SimpleThemeLogger.php:569
+msgid "Old value"
+msgstr "Valor anterior"
+
+#: loggers/SimplePluginLogger.php:46
+msgctxt "Plugin was non-silently activated by a user"
+msgid "Activated plugin \"{plugin_name}\""
+msgstr "Ativou o plugin \"{plugin_name}\""
+
+#: loggers/SimplePluginLogger.php:52
+msgctxt "Plugin was non-silently deactivated by a user"
+msgid "Deactivated plugin \"{plugin_name}\""
+msgstr "Desativou o plugin \"{plugin_name}\""
+
+#: loggers/SimplePluginLogger.php:58
+msgctxt "Plugin was installed"
+msgid "Installed plugin \"{plugin_name}\""
+msgstr "Instalou o plugin \"{plugin_name}\""
+
+#: loggers/SimplePluginLogger.php:64
+msgctxt "Plugin failed to install"
+msgid "Failed to install plugin \"{plugin_name}\""
+msgstr "Não conseguiu instalar o plugin \"{plugin_name}\""
+
+#: loggers/SimplePluginLogger.php:1115
+msgctxt "plugin logger - detailed output install source"
+msgid "Source file name"
+msgstr "Nome do arquivo de origem"
+
+#: loggers/SimplePluginLogger.php:1161
+msgid "Uploaded ZIP archive"
+msgstr "Enviou arquivo ZIP"
+
+#: loggers/SimplePostLogger.php:214
+msgid "Created {post_type} \"{post_title}\""
+msgstr "Criou {post_type} \"{post_title}\""
+
+#: loggers/SimplePostLogger.php:216
+msgid "Restored {post_type} \"{post_title}\" from trash"
+msgstr "Restaurou {post_type} \"{post_title}\" da lixeira"
+
+#: loggers/SimplePostLogger.php:218
+msgid "Moved {post_type} \"{post_title}\" to the trash"
+msgstr "Moveu {post_type} \"{post_title}\" para a lixeira"
+
+#: loggers/SimplePostLogger.php:225
+msgctxt "Post logger: search"
+msgid "Posts created"
+msgstr "Posts criados"
+
+#: loggers/SimplePostLogger.php:227
+msgctxt "Post logger: search"
+msgid "Posts trashed"
+msgstr "Posts enviados à lixeira"
+
+#: loggers/SimplePostLogger.php:229
+msgctxt "Post logger: search"
+msgid "Posts restored"
+msgstr "Posts restaurados"
+
+#: loggers/SimplePostLogger.php:971
+msgid "Created {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+msgstr "Criou {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+
+#: loggers/SimplePostLogger.php:974
+msgid "Moved {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a> to the trash"
+msgstr "Moveu {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a> para a lixeira"
+
+#: loggers/SimplePostLogger.php:1114
+msgid "Changed from {prev_user_display_name} ({prev_user_email}) to {new_user_display_name} ({new_user_email})"
+msgstr "Alterou de {prev_user_display_name} ({prev_user_email}) para {new_user_display_name} ({new_user_email})"
+
+#: loggers/SimplePostLogger.php:1150
+msgid "Changed from {prev_page_template} to {new_page_template}"
+msgstr "Alterou de {prev_page_template} para {new_page_template}"
+
+#: loggers/SimplePostLogger.php:1155
+msgid "Changed from \"{prev_page_template_name}\" to \"{new_page_template_name}\""
+msgstr "Alterou de \"{prev_page_template_name}\" to \"{new_page_template_name}\""
+
+#: loggers/SimplePostLogger.php:1161
+msgid "Template"
+msgstr "Modelo"
+
+#: loggers/SimpleThemeLogger.php:35
+msgid "Switched theme to \"{theme_name}\" from \"{prev_theme_name}\""
+msgstr "Trocou o tema de \"{prev_theme_name}\" para \"{theme_name}\""
+
+#: loggers/SimpleThemeLogger.php:39
+msgid "Customized theme appearance \"{setting_id}\""
+msgstr "Personalizou a aparência do tema \"{setting_id}\""
+
+#: loggers/SimpleThemeLogger.php:40
+msgid "Removed widget \"{widget_id_base}\" from sidebar \"{sidebar_id}\""
+msgstr "Removeu o widget \"{widget_id_base}\" da barra lateral \"{sidebar_id}\""
+
+#: loggers/SimpleThemeLogger.php:42
+msgid "Changed widget order \"{widget_id_base}\" in sidebar \"{sidebar_id}\""
+msgstr "Alterou a ordem do widget \"{widget_id_base}\" na barra lateral \"{sidebar_id}\""
+
+#: loggers/SimpleThemeLogger.php:43
+msgid "Changed widget \"{widget_id_base}\" in sidebar \"{sidebar_id}\""
+msgstr "Alterou o widget \"{widget_id_base}\" na barra lateral \"{sidebar_id}\""
+
+#: loggers/SimpleThemeLogger.php:44
+msgid "Changed settings for the theme custom background"
+msgstr "Alterou as configurações do fundo personalizado do tema"
+
+#: loggers/SimpleUserLogger.php:37
+msgid "Created user {created_user_login} ({created_user_email}) with role {created_user_role}"
+msgstr "Criou o usuário {created_user_login} ({created_user_email}) com a função {created_user_role}"
+
+#: loggers/SimpleUserLogger.php:41
+msgid "Deleted user {deleted_user_login} ({deleted_user_email})"
+msgstr "Excluiu o usuário {deleted_user_login} ({deleted_user_email})"
+
+#: loggers/SimpleUserLogger.php:91
+msgctxt "User logger: search"
+msgid "User logouts"
+msgstr "Saídas de usuário"
+
+#: loggers/SimpleUserLogger.php:97
+msgctxt "User logger: search"
+msgid "User profile updates"
+msgstr "Atualizações de perfil do usuário"
+
+#: loggers/SimpleUserLogger.php:100
+msgctxt "User logger: search"
+msgid "User deletions"
+msgstr "Exclusões de usuário"
+
+#: loggers/SimpleUserLogger.php:554
+msgid "Edited <a href=\"{edit_profile_link}\">your profile</a>"
+msgstr "Editou o <a href=\"{edit_profile_link}\">seu perfil</a>"
+
+#: loggers/SimpleUserLogger.php:556
+msgid "Edited <a href=\"{edit_profile_link}\">their profile</a>"
+msgstr "Editou o <a href=\"{edit_profile_link}\">perfil dele(a)</a>"
+
+#: loggers/SimpleUserLogger.php:562
+msgid "Edited your profile"
+msgstr "Editou o seu perfil"
+
+#: loggers/SimpleUserLogger.php:569
+msgid "Edited the profile for user <a href=\"{edit_profile_link}\">{edited_user_login} ({edited_user_email})</a>"
+msgstr "Editou o perfil do usuário <a href=\"{edit_profile_link}\">{edited_user_login} ({edited_user_email})</a>"
+
+#: loggers/SimpleMediaLogger.php:31
+msgctxt "Media logger: search"
+msgid "All media activity"
+msgstr "Todas as atividades de mídia"
+
+#: loggers/SimpleMenuLogger.php:33
+msgctxt "Menu updates logger: search"
+msgid "All menu activity"
+msgstr "Todas as atividades de menu"
+
+#: loggers/SimplePluginLogger.php:117
+msgctxt "Plugin logger: search"
+msgid "All plugin activity"
+msgstr "Todas as atividades de plugin"
+
+#: loggers/SimplePostLogger.php:223
+msgctxt "Post logger: search"
+msgid "All posts & pages activity"
+msgstr "Todas as atividades de posts & páginas"
+
+#: loggers/SimpleUserLogger.php:81
+msgctxt "User logger: search"
+msgid "All user activity"
+msgstr "Todas as atividades de usuários"
+
+#: loggers/SimpleThemeLogger.php:49
+msgctxt "Theme logger: search"
+msgid "All theme activity"
+msgstr "Todas as atividades de temas"
+
+#: dropins/SimpleHistoryWPCLIDropin.php:77 loggers/SimpleLogger.php:318
+msgid "Deleted user (had id %1$s, email %2$s, login %3$s)"
+msgstr "Usuário excluído (id %1$s, e-mail %2$s, usuário %3$s)"
+
+#. Translators: Date format for log row header, see http://php.net/date
+#: loggers/SimpleLogger.php:459
+msgid "M j, Y \\a\\t G:i"
+msgstr "j M Y \\à(\\s) G:i"
+
+#: loggers/SimpleCommentsLogger.php:309
+msgctxt "Comments logger: search"
+msgid "Deleted comments"
+msgstr "Comentários excluídos"
+
+#: loggers/SimpleMediaLogger.php:39
+msgctxt "Media logger: search"
+msgid "Deleted media"
+msgstr "Mídias excluídas"
+
+#: loggers/SimplePluginLogger.php:139
+msgctxt "Plugin logger: search"
+msgid "Deleted plugins"
+msgstr "Plugins excluídos"
+
+#: loggers/SimpleMenuLogger.php:43
+msgctxt "Menu updates logger: search"
+msgid "Deleted menus"
+msgstr "Menus excluídos"
+
+#: loggers/SimpleMediaLogger.php:33
+msgctxt "Media logger: search"
+msgid "Added media"
+msgstr "Mídias adicionadas"
+
+#: loggers/SimpleThemeLogger.php:66
+msgctxt "Theme logger: search"
+msgid "Added widgets"
+msgstr "Widgets adicionados"
+
+#: loggers/SimplePluginLogger.php:132
+msgctxt "Plugin logger: search"
+msgid "Updated plugins"
+msgstr "Plugins atualizados"
+
+#: loggers/SimpleCommentsLogger.php:284
+msgctxt "Comments logger: search"
+msgid "Approved comments"
+msgstr "Comentários aprovados"
+
+#: loggers/SimpleCommentsLogger.php:289
+msgctxt "Comments logger: search"
+msgid "Held comments"
+msgstr "Comentários retidos"
+
+#: loggers/SimpleCommentsLogger.php:299
+msgctxt "Comments logger: search"
+msgid "Trashed comments"
+msgstr "Comentários enviados à lixeira"
+
+#: loggers/SimpleCommentsLogger.php:304
+msgctxt "Comments logger: search"
+msgid "Untrashed comments"
+msgstr "Comentários recuperados da lixeira"
+
+#: loggers/SimpleThemeLogger.php:60
+msgctxt "Theme logger: search"
+msgid "Switched themes"
+msgstr "Temas trocados"
+
+#: loggers/SimpleThemeLogger.php:63
+msgctxt "Theme logger: search"
+msgid "Changed appearance of themes"
+msgstr "Aparências de temas alteradas"
+
+#: loggers/SimpleThemeLogger.php:69
+msgctxt "Theme logger: search"
+msgid "Removed widgets"
+msgstr "Widgets removidos"
+
+#: loggers/SimpleThemeLogger.php:72
+msgctxt "Theme logger: search"
+msgid "Changed widgets order"
+msgstr "Widgets com a ordem alterada"
+
+#: loggers/SimpleThemeLogger.php:75
+msgctxt "Theme logger: search"
+msgid "Edited widgets"
+msgstr "Widgets editados"
+
+#: loggers/SimpleThemeLogger.php:78
+msgctxt "Theme logger: search"
+msgid "Background of themes changed"
+msgstr "Fundos de temas alterados"
+
+#: loggers/SimpleCoreUpdatesLogger.php:71
+msgctxt "User logger: search"
+msgid "WordPress core updates"
+msgstr "Arquivos básicos do WordPress atualizados"
+
+#: loggers/SimpleExportLogger.php:29
+msgctxt "Export logger: search"
+msgid "Created exports"
+msgstr "Exportações criadas"
+
+#: loggers/SimpleMediaLogger.php:36
+msgctxt "Media logger: search"
+msgid "Updated media"
+msgstr "Mídias atualizadas"
+
+#: loggers/SimpleMenuLogger.php:35
+msgctxt "Menu updates logger: search"
+msgid "Created menus"
+msgstr "Menus criados"
+
+#: loggers/SimpleMenuLogger.php:38
+msgctxt "Menu updates logger: search"
+msgid "Edited menus"
+msgstr "Menus editados"
+
+#: loggers/SimpleOptionsLogger.php:39
+msgctxt "Options logger: search"
+msgid "Changed options"
+msgstr "Opções alteradas"
+
+#: loggers/SimplePluginLogger.php:119
+msgctxt "Plugin logger: search"
+msgid "Activated plugins"
+msgstr "Plugins ativados"
+
+#: loggers/SimplePluginLogger.php:122
+msgctxt "Plugin logger: search"
+msgid "Deactivated plugins"
+msgstr "Plugins desativados"
+
+#: loggers/SimplePluginLogger.php:126
+msgctxt "Plugin logger: search"
+msgid "Installed plugins"
+msgstr "Plugins instalados"
+
+#: loggers/SimpleCommentsLogger.php:294
+msgctxt "Comments logger: search"
+msgid "Comments status changed to spam"
+msgstr "Status de comentários alterados para spam"
+
+#: loggers/SimpleUserLogger.php:83
+msgctxt "User logger: search"
+msgid "Successful user logins"
+msgstr "Acessos bem-sucedidos"
+
+#: loggers/SimpleUserLogger.php:87
+msgctxt "User logger: search"
+msgid "Failed user logins"
+msgstr "Acessos que falharam"
+
+#: loggers/SimplePluginLogger.php:129
+msgctxt "Plugin logger: search"
+msgid "Failed plugin installs"
+msgstr "Instalações de plugin que falharam"
+
+#: loggers/SimplePluginLogger.php:136
+msgctxt "Plugin logger: search"
+msgid "Failed plugin updates"
+msgstr "Atualizações de plugin que falharam"
+
+#: loggers/FileEditsLogger.php:27
+msgctxt "Plugin logger: file edits"
+msgid "Edited plugin files"
+msgstr "Arquivos de plugin editados"
+
+#: loggers/SimplePluginLogger.php:583
+msgid "Viewing <code>readme</code> from repository <code><a target=\"_blank\" href=\"%1$s\">%2$s</a></code>."
+msgstr "Visualizando o <code>readme</code> do repositório <code><a target=\"_blank\" href=\"%1$s\">%2$s</a></code>."
+
+#: loggers/SimpleUserLogger.php:33
+msgid "Edited the profile for user \"{edited_user_login}\" ({edited_user_email})"
+msgstr "Editou o perfil de usuário \"{edited_user_login}\" ({edited_user_email})"
+
+#: dropins/SimpleHistoryExportDropin.php:202
+msgctxt "Export dropin: introtext"
+msgid "The export function will export the full history."
+msgstr "A função de exportação irá exportar o histórico completo."
+
+#: dropins/SimpleHistoryExportDropin.php:211
+msgctxt "Export dropin: export format"
+msgid "JSON"
+msgstr "JSON"
+
+#: dropins/SimpleHistoryExportDropin.php:218
+msgctxt "Export dropin: export format"
+msgid "CSV"
+msgstr "CSV"
+
+#: dropins/SimpleHistoryFilterDropin.php:267
+#: dropins/SimpleHistoryFilterDropin.php:448
+msgid "Search events"
+msgstr "Pesquisar eventos"
+
+#: dropins/SimpleHistoryFilterDropin.php:435
+msgid "All users"
+msgstr "Todos os usuários"
+
+#: dropins/SimpleHistoryFilterDropin.php:157
+msgid "All dates"
+msgstr "Todos as datas"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:120
+msgctxt "IP Info Dropin"
+msgid "IP address"
+msgstr "Endereço IP"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:131
+msgctxt "IP Info Dropin"
+msgid "Hostname"
+msgstr "Hostname"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:142
+#: dropins/SimpleHistoryIpInfoDropin.php:153
+msgctxt "IP Info Dropin"
+msgid "Network"
+msgstr "Rede"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:164
+msgctxt "IP Info Dropin"
+msgid "City"
+msgstr "Cidade"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:175
+msgctxt "IP Info Dropin"
+msgid "Region"
+msgstr "Região"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:197
+msgctxt "IP Info Dropin"
+msgid "IP info provided by %1$s ipinfo.io %2$s"
+msgstr "Informação do IP fornecida por %1$s ipinfo.io %2$s"
+
+#: dropins/SimpleHistoryNewRowsNotifier.php:40
+msgctxt "New rows notifier: error while checking for new rows"
+msgid "An error occurred while checking for new events"
+msgstr "Ocorreu um erro durante a verificação de novos eventos"
+
+#: dropins/SimpleHistoryRSSDropin.php:79
+msgid "Address"
+msgstr "Endereço"
+
+#: dropins/SimpleHistoryRSSDropin.php:88
+msgid "Regenerate"
+msgstr "Regenerar"
+
+#: dropins/SimpleHistoryRSSDropin.php:207
+#: dropins/SimpleHistoryRSSDropin.php:376
+msgid "History for %s"
+msgstr "Histórico para %s"
+
+#: dropins/SimpleHistoryRSSDropin.php:208
+#: dropins/SimpleHistoryRSSDropin.php:377
+msgid "WordPress History for %s"
+msgstr "Histórico do WordPress  para %s"
+
+#: dropins/SimpleHistoryRSSDropin.php:349
+msgid "+%1$s occasion"
+msgid_plural "+%1$s occasions"
+msgstr[0] "+%1$s ocasião"
+msgstr[1] "+%1$s ocasiões"
+
+#: dropins/SimpleHistoryRSSDropin.php:380
+msgid "Wrong RSS secret"
+msgstr "RSS secreto errado"
+
+#: dropins/SimpleHistorySettingsStatsDropin.php:31
+#: dropins/SimpleHistorySidebarStats.php:154
+msgid "Stats"
+msgstr "Estatísticas"
+
+#: inc/SimpleHistory.php:505
+msgctxt "Message visible while waiting for log to load from server the first time"
+msgid "Loading history..."
+msgstr "Carregando histórico..."
+
+#: inc/SimpleHistory.php:547
+msgctxt "page n of n"
+msgid "of"
+msgstr "de"
+
+#: dropins/SimpleHistorySidebarSettings.php:52 inc/SimpleHistory.php:860
+#: inc/SimpleHistory.php:1292
+msgid "Settings"
+msgstr "Configurações"
+
+#. Plugin Name of the plugin
+#: inc/SimpleHistory.php:1316
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/SimpleHistory.php:1409
+msgid "Current page"
+msgstr "Página atual"
+
+#: inc/SimpleHistory.php:1770 inc/SimpleHistory.php:1873
+msgid "Simple History Settings"
+msgstr "Configurações do Simple History"
+
+#: inc/SimpleHistory.php:1858
+msgctxt "dashboard menu name"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/SimpleHistory.php:1929
+msgid "Show history"
+msgstr "Exibir histórico"
+
+#: inc/SimpleHistory.php:1995
+msgctxt "history page headline"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/SimpleHistory.php:2111
+msgid "on the dashboard"
+msgstr "no painel principal"
+
+#: inc/SimpleHistory.php:2123
+msgid "as a page under the dashboard menu"
+msgstr "como uma página no menu do painel"
+
+#: inc/SimpleHistory.php:2146
+msgid "Items in the database are automatically removed after %1$s days."
+msgstr "Os itens no banco de dados são automaticamente removidos após %1$s dias."
+
+#: inc/SimpleHistory.php:2150
+msgid "Items in the database are kept forever."
+msgstr "Os itens no banco de dados são mantidos para sempre."
+
+#: inc/SimpleHistory.php:2478
+msgid "+%1$s similar event"
+msgid_plural "+%1$s similar events"
+msgstr[0] "+%1$s evento semelhante"
+msgstr[1] "+%1$s eventos semelhantes"
+
+#: inc/SimpleHistory.php:2484
+msgid "Loading…"
+msgstr "Carregando..."
+
+#: inc/SimpleHistory.php:2533
+msgid "Context data"
+msgstr "Dados do contexto"
+
+#: inc/SimpleHistory.php:2794
+msgctxt "Log level in gui"
+msgid "emergency"
+msgstr "emergência"
+
+#: inc/SimpleHistory.php:2798
+msgctxt "Log level in gui"
+msgid "alert"
+msgstr "alerta"
+
+#: inc/SimpleHistory.php:2802
+msgctxt "Log level in gui"
+msgid "critical"
+msgstr "crítico"
+
+#: inc/SimpleHistory.php:2806
+msgctxt "Log level in gui"
+msgid "error"
+msgstr "erro"
+
+#: inc/SimpleHistory.php:2810
+msgctxt "Log level in gui"
+msgid "warning"
+msgstr "atenção"
+
+#: inc/SimpleHistory.php:2814
+msgctxt "Log level in gui"
+msgid "notice"
+msgstr "aviso"
+
+#: inc/SimpleHistory.php:2818
+msgctxt "Log level in gui"
+msgid "info"
+msgstr "informação"
+
+#: inc/SimpleHistory.php:2822
+msgctxt "Log level in gui"
+msgid "debug"
+msgstr "depuração"
+
+#: inc/SimpleHistory.php:2827
+msgctxt "Log level in gui"
+msgid "Emergency"
+msgstr "Emergência"
+
+#: inc/SimpleHistory.php:2831
+msgctxt "Log level in gui"
+msgid "Alert"
+msgstr "Alerta"
+
+#: inc/SimpleHistory.php:2835
+msgctxt "Log level in gui"
+msgid "Critical"
+msgstr "Crítico"
+
+#: inc/SimpleHistory.php:2839
+msgctxt "Log level in gui"
+msgid "Error"
+msgstr "Erro"
+
+#: inc/SimpleHistory.php:2843
+msgctxt "Log level in gui"
+msgid "Warning"
+msgstr "Atenção"
+
+#: inc/SimpleHistory.php:2847
+msgctxt "Log level in gui"
+msgid "Notice"
+msgstr "Aviso"
+
+#: inc/SimpleHistory.php:2851
+msgctxt "Log level in gui"
+msgid "Info"
+msgstr "Informação"
+
+#: inc/SimpleHistory.php:2855
+msgctxt "Log level in gui"
+msgid "Debug"
+msgstr "Depuração"
+
+#: inc/SimpleHistory.php:3150
+msgid "One event today from one user."
+msgstr "Um evento hoje de um usuário."
+
+#: inc/SimpleHistory.php:3156
+msgid "One event today from one source."
+msgstr "Um evento hoje de uma fonte."
+
+#: loggers/SimpleCommentsLogger.php:268
+msgctxt "Comments logger: search"
+msgid "Comments"
+msgstr "Comentários"
+
+#: dropins/SimpleHistoryFilterDropin.php:182
+msgctxt "Filter dropin: filter days"
+msgid "Last 7 days"
+msgstr "Últimos 7 dias"
+
+#: dropins/SimpleHistoryFilterDropin.php:203
+msgctxt "Filter dropin: filter days"
+msgid "Last 60 days"
+msgstr "Últimos 60 dias"
+
+#: dropins/SimpleHistoryFilterDropin.php:196
+msgctxt "Filter dropin: filter days"
+msgid "Last 30 days"
+msgstr "Últimos 30 dias"
+
+#: dropins/SimpleHistoryFilterDropin.php:189
+msgctxt "Filter dropin: filter days"
+msgid "Last 14 days"
+msgstr "Últimos 14 dias"
+
+#: dropins/SimpleHistoryFilterDropin.php:270
+msgctxt "Filter dropin: button to show more search options"
+msgid "Show search options"
+msgstr "Mostrar opções de pesquisa"
+
+#: dropins/SimpleHistoryFilterDropin.php:451
+msgctxt "Filter dropin: button to hide more search options"
+msgid "Hide search options"
+msgstr "Ocultar opções de pesquisa"
+
+#: loggers/SimpleCommentsLogger.php:99
+msgctxt "A comment was added to the database by a non-logged in internet user"
+msgid "Added a comment to {comment_post_type} \"{comment_post_title}\""
+msgstr "Adicionou um comentário para {comment_post_type} \"{comment_post_title}\""
+
+#: loggers/SimpleCommentsLogger.php:105
+msgctxt "A comment was added to the database by a logged in user"
+msgid "Added a comment to {comment_post_type} \"{comment_post_title}\""
+msgstr "Adicionou um comentário para {comment_post_type} \"{comment_post_title}\""
+
+#: dropins/SimpleHistoryExportDropin.php:206
+msgctxt "Export dropin: format"
+msgid "Choose format to export to"
+msgstr "Escolha um formato para exportar"
+
+#: dropins/SimpleHistoryFilterDropin.php:348
+msgid "All messages"
+msgstr "Todas as mensagens"
+
+#: dropins/SimpleHistoryIpInfoDropin.php:99
+msgctxt "IP Info Dropin"
+msgid "That IP address does not seem like a public one."
+msgstr "Esse endereço IP não parece ser público."
+
+#: dropins/SimpleHistoryIpInfoDropin.php:186
+msgctxt "IP Info Dropin"
+msgid "Country"
+msgstr "País"
+
+#: dropins/SimpleHistoryRSSDropin.php:106
+msgid "Created new secret RSS address"
+msgstr "Criou novo endereço RSS secreto"
+
+#: dropins/SimpleHistoryRSSDropin.php:294
+msgid "Severity level: %1$s"
+msgstr "Nível de severidade: %1$s"
+
+#: loggers/Plugin_UltimateMembers_Logger.php:26
+msgctxt "PluginUltimateMembersLogger"
+msgid "Logged in"
+msgstr "Acessou"
+
+#: dropins/SimpleHistorySidebarDropin.php:47
+msgctxt "Sidebar box"
+msgid "If you like Simple History then please <a href=\"%1$s\">give it a nice review over at wordpress.org</a>."
+msgstr "Se você gosta do Simple History, então por favor <a href=\"%1$s\">deixe uma avaliação legal sobre ele no wordpress.org</a>."
+
+#: dropins/SimpleHistorySidebarDropin.php:51
+msgctxt "Sidebar box"
+msgid "A good review will help new users find this plugin. And it will make the plugin author very happy :)"
+msgstr "Uma boa avaliação vai ajudar novos usuários a encontrar este plugin. E deixar o autor do plugin muito feliz :)"
+
+#: dropins/SimpleHistoryExportDropin.php:224
+msgctxt "Export dropin: submit button"
+msgid "Download Export File"
+msgstr "Baixar o arquivo da exportação"
+
+#: dropins/SimpleHistoryRSSDropin.php:60
+msgctxt "rss settings headline"
+msgid "RSS feed"
+msgstr "Feed RSS"
+
+#: loggers/SimpleLogger.php:453
+msgid "Just now"
+msgstr "Neste instante"
+
+#: inc/SimpleHistory.php:590
+msgid "Sorry, but there are too many similar events to show."
+msgstr "Há eventos semelhantes demais para mostrar."
+
+#: inc/SimpleHistory.php:626
+msgctxt "API: not enough arguments passed"
+msgid "Not enough args specified"
+msgstr "Os argumentos especificados não são o suficiente"
+
+#: inc/SimpleHistory.php:869
+msgid "Log (debug)"
+msgstr "Registro (depurar)"
+
+#: inc/SimpleHistory.php:874
+msgid "Styles example (debug)"
+msgstr "Exemplo de estilos (depurar)"
+
+#: inc/SimpleHistory.php:1403
+msgid "Remove all log items?"
+msgstr "Remover todos os itens do registro?"
+
+#: inc/SimpleHistory.php:1405
+msgid "Go to the first page"
+msgstr "Ir à primeira página"
+
+#: inc/SimpleHistory.php:1406
+msgid "Go to the previous page"
+msgstr "Ir à página anterior"
+
+#: inc/SimpleHistory.php:1407
+msgid "Go to the next page"
+msgstr "Ir à próxima página"
+
+#: inc/SimpleHistory.php:1408
+msgid "Go to the last page"
+msgstr "Ir à última página"
+
+#: inc/SimpleHistory.php:1411
+msgid "Oups, the log could not be loaded right now."
+msgstr "Opa, não foi possível carregar o registro no momento."
+
+#: dropins/SimpleHistoryRSSDropin.php:428
+msgid "You can generate a new address for the RSS feed. This is useful if you think that the address has fallen into the wrong hands."
+msgstr "Você pode gerar um novo endereço para o feed RSS. Isso é útil se você acha que o endereço caiu nas mãos erradas."
+
+#: dropins/SimpleHistoryRSSDropin.php:381
+msgid "Your RSS secret for Simple History RSS feed is wrong. Please see WordPress settings for current link to the RSS feed."
+msgstr "O segredo para o feed RSS do Simple History está errado. Verifique as configurações do WordPress para o link atual do feed RSS."
+
+#: dropins/SimpleHistoryRSSDropin.php:467
+msgid "Simple History has a RSS feed which you can subscribe to and receive log updates. Make sure you only share the feed with people you trust, since it can contain sensitive or confidential information."
+msgstr "O Simple History tem um feed RSS que você pode assinar para receber atualizações do registro. Você só deve compartilhar o feed com pessoas em quem confia, pois ele pode conter informações sensíveis ou confidenciais."
+
+#: dropins/SimpleHistorySettingsLogtestDropin.php:23
+msgid "Test data (debug)"
+msgstr "Dados de teste (depuração)"
+
+#: inc/SimpleHistory.php:1416
+msgid "Your search did not match any history events."
+msgstr "Sua pesquisa não encontrou eventos no histórico."
+
+#: inc/SimpleHistory.php:1806
+msgid "No valid callback found"
+msgstr "Nenhum callback válido encontrado"
+
+#: inc/SimpleHistory.php:1897
+msgid "Cleared database"
+msgstr "Limpou o banco de dados"
+
+#: inc/SimpleHistory.php:1967
+msgid "Clear log"
+msgstr "Limpar o registro"
+
+#: inc/SimpleHistory.php:2157
+msgid "Clear log now"
+msgstr "Limpar o registro agora."
+
+#: inc/SimpleHistory.php:2230
+msgid "The log for Simple History was cleared ({num_rows} rows were removed)."
+msgstr "O registro do Simple History foi limpo ({num_rows} linhas foram removidas)."
+
+#: inc/SimpleHistory.php:2536
+msgid "This is potentially useful meta data that a logger has saved."
+msgstr "Estes são metadados potencialmente úteis que um usuário conectado salvou."
+
+#: inc/SimpleHistory.php:3133
+msgid "No events today so far."
+msgstr "Não há eventos hoje, até agora."
+
+#: inc/SimpleHistory.php:3162
+msgid "%1$d events today from one user."
+msgstr "%1$d eventos hoje de um usuário."
+
+#: inc/SimpleHistory.php:3168
+msgid "%1$d events today from %2$d users."
+msgstr "%1$d eventos hoje de %2$d usuários."
+
+#: inc/SimpleHistory.php:3174 inc/SimpleHistory.php:3180
+msgid "%1$d events today from one user and one other source."
+msgstr "%1$d eventos hoje de um usuário e uma outra fonte."
+
+#: inc/SimpleHistory.php:3186
+msgid "%1$d events today from one user and %3$d other sources."
+msgstr "%1$d  eventos hoje de um usuário e %3$d outras fontes."
+
+#: inc/SimpleHistory.php:3192
+msgid "%1$s events today from %2$d users and %3$d other sources."
+msgstr "%1$s eventos hoje de %2$d usuários e %3$d outras fontes."
+
+#: loggers/PluginEnableMediaReplaceLogger.php:24
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Logs media updates made with the Enable Media Replace Plugin"
+msgstr "Registra atualizações de mídia feitas com o plugin Enable Media Replace"
+
+#: loggers/PluginEnableMediaReplaceLogger.php:28
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Replaced attachment \"{prev_attachment_title}\" with new attachment \"{new_attachment_title}\""
+msgstr "Substituiu o anexo \"{prev_attachment_title}\" pelo novo anexo \"{new_attachment_title}\""
+
+#: loggers/PluginUserSwitchingLogger.php:25
+msgctxt "PluginUserSwitchingLogger"
+msgid "Logs user switches"
+msgstr "Registra trocas de usuário"
+
+#: loggers/PluginUserSwitchingLogger.php:30
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched to user \"{user_login_to}\" from user \"{user_login_from}\""
+msgstr "Trocou de usuário \"{user_login_from}\" para usuário \"{user_login_to}\""
+
+#: loggers/PluginUserSwitchingLogger.php:31
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched back to user \"{user_login_to}\" from user \"{user_login_from}\""
+msgstr "Reverteu de usuário \"{user_login_from}\" para usuário \"{user_login_to}\""
+
+#: loggers/PluginUserSwitchingLogger.php:32
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched back to user \"{user_login_to}\""
+msgstr "Reverteu para usuário \"{user_login_to}\""
+
+#: loggers/PluginUserSwitchingLogger.php:33
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched off user \"{user_login}\""
+msgstr "Desconectou o usuário \"{user_login}\""
+
+#: loggers/Plugin_UltimateMembers_Logger.php:23
+msgctxt "PluginUltimateMembersLogger"
+msgid "Logs actions from the Ultimate Members plugin"
+msgstr "Registra ações do plugin Ultimate Members"
+
+#: loggers/SimpleCommentsLogger.php:111
+msgctxt "A comment was approved"
+msgid "Approved a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Aprovou um comentário para \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:117
+msgctxt "A comment was was unapproved"
+msgid "Unapproved a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Desaprovou um comentário para \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:123
+msgctxt "A comment was marked as spam"
+msgid "Marked a comment to post \"{comment_post_title}\" as spam"
+msgstr "Marcou um comentário ao post \"{comment_post_title}\" como spam"
+
+#: loggers/SimpleCommentsLogger.php:129
+msgctxt "A comment was marked moved to the trash"
+msgid "Trashed a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Enviou à lixeira um comentário a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:141
+msgctxt "A comment was deleted"
+msgid "Deleted a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Excluiu um comentário a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:147
+msgctxt "A comment was edited"
+msgid "Edited a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Editou um comentário a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:154
+msgctxt "A trackback was added to the database by a non-logged in internet user"
+msgid "Added a trackback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Adicionou um trackback a {comment_post_type} \"{comment_post_title}\""
+
+#: loggers/SimpleCommentsLogger.php:160
+msgctxt "A trackback was added to the database by a logged in user"
+msgid "Added a trackback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Adicionou um trackback a {comment_post_type} \"{comment_post_title}\""
+
+#: loggers/SimpleCommentsLogger.php:166
+msgctxt "A trackback was approved"
+msgid "Approved a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Aprovou um trackback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:172
+msgctxt "A trackback was was unapproved"
+msgid "Unapproved a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Desaprovou um trackback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:178
+msgctxt "A trackback was marked as spam"
+msgid "Marked a trackback to post \"{comment_post_title}\" as spam"
+msgstr "Marcou um trackback ao post \"{comment_post_title}\" como spam"
+
+#: loggers/SimpleCommentsLogger.php:184
+msgctxt "A trackback was marked moved to the trash"
+msgid "Trashed a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Enviou à lixeira um trackback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:196
+msgctxt "A trackback was deleted"
+msgid "Deleted a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Excluiu um trackback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:202
+msgctxt "A trackback was edited"
+msgid "Edited a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Editou um trackback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:209
+msgctxt "A trackback was added to the database by a non-logged in internet user"
+msgid "Added a pingback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Adicionou um pingback a {comment_post_type} \"{comment_post_title}\""
+
+#: loggers/SimpleCommentsLogger.php:215
+msgctxt "A pingback was added to the database by a logged in user"
+msgid "Added a pingback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Adicionou um pingback a {comment_post_type} \"{comment_post_title}\""
+
+#: loggers/SimpleCommentsLogger.php:221
+msgctxt "A pingback was approved"
+msgid "Approved a pingback to \"{comment_post_title}\" by \"{comment_author}\"\" ({comment_author_email})"
+msgstr "Aprovou um pingback a \"{comment_post_title}\" por \"{comment_author}\"\" ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:227
+msgctxt "A pingback was was unapproved"
+msgid "Unapproved a pingback to \"{comment_post_title}\" by \"{comment_author}\" ({comment_author_email})"
+msgstr "Desaprovou um pingback a \"{comment_post_title}\" por \"{comment_author}\" ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:233
+msgctxt "A pingback was marked as spam"
+msgid "Marked a pingback to post \"{comment_post_title}\" as spam"
+msgstr "Marcou um pingback ao post \"{comment_post_title}\" como spam"
+
+#: loggers/SimpleCommentsLogger.php:239
+msgctxt "A pingback was marked moved to the trash"
+msgid "Trashed a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Enviou à lixeira um pingback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:245
+msgctxt "A pingback was restored from the trash"
+msgid "Restored a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Restaurou da lixeira um pingback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:135
+msgctxt "A comment was restored from the trash"
+msgid "Restored a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Restaurou da lixeira um comentário a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:190
+msgctxt "A trackback was restored from the trash"
+msgid "Restored a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Restaurou da lixeira um trackback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:251
+msgctxt "A pingback was deleted"
+msgid "Deleted a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Excluiu um pingback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: loggers/SimpleCommentsLogger.php:257
+msgctxt "A pingback was edited"
+msgid "Edited a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Editou um pingback a \"{comment_post_title}\" por {comment_author} ({comment_author_email})"
+
+#: dropins/SimpleHistoryFilterDropin.php:294
+msgid "All log levels"
+msgstr "Todos os níveis de registro"
+
+#: loggers/SimpleCommentsLogger.php:269
+msgctxt "Comments logger: search"
+msgid "All comments activity"
+msgstr "Todas as atividades de comentário"
+
+#: dropins/SimpleHistorySidebarDropin.php:21
+msgctxt "Sidebar box"
+msgid "Donate to support development"
+msgstr "Doação para ajudar no desenvolvimento"
+
+#: dropins/SimpleHistorySidebarDropin.php:44
+msgctxt "Sidebar box"
+msgid "Review this plugin if you like it"
+msgstr "Gosta deste plugin? Faça uma avaliação"
+
+#: dropins/SimpleHistorySidebarDropin.php:24
+msgctxt "Sidebar box"
+msgid "If you like and use Simple History you should <a href=\"%1$s\">donate to keep this plugin free</a>."
+msgstr "Se você gosta de usar o Simple History, faça uma <a href=\"%1$s\">doação para manter o plugin gratuito (página em inglês)</a>."
+
+#: dropins/SimpleHistoryDonateDropin.php:34
+msgid "Donate"
+msgstr "Doar"
+
+#: dropins/SimpleHistoryDonateDropin.php:47
+msgctxt "donate settings headline"
+msgid "Donate"
+msgstr "Doações"
+
+#: dropins/SimpleHistoryExportDropin.php:31
+msgctxt "Export dropin: Tab name on settings page"
+msgid "Export"
+msgstr "Exportação"
+
+#: inc/SimpleHistory.php:2488
+msgid "Showing %1$s more"
+msgstr "Mostrando mais %1$s"
+
+#: loggers/SimpleCommentsLogger.php:271
+msgctxt "Comments logger: search"
+msgid "Added comments"
+msgstr "Comentários adicionados"
+
+#: loggers/SimpleCommentsLogger.php:279
+msgctxt "Comments logger: search"
+msgid "Edited comments"
+msgstr "Comentários editados"
+
+#: inc/oldversions.php:16
+msgid "Simple History is a great plugin, but to use it your server must have at least PHP 5.6 installed (you have version %s)."
+msgstr "O Simple History é um ótimo plugin, mas, para ele funcionar, o seu servidor deve ter pelo menos o PHP 5.6 (você tem a versão %s)."
+
+#: loggers/Plugin_UltimateMembers_Logger.php:22
+msgctxt "PluginUltimateMembersLogger"
+msgid "Plugin: Ultimate Members Logger"
+msgstr "Plugin: Registrador do Ultimate Members"
+
+#: dropins/SimpleHistoryNewRowsNotifier.php:93
+msgid "%s new event"
+msgid_plural "%s new events"
+msgstr[0] "%s novo evento"
+msgstr[1] "%s novos eventos"
+
+#: loggers/PluginEnableMediaReplaceLogger.php:23
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Plugin: Enable Media Replace Logger"
+msgstr "Plugin: Registrador do Enable Media Replace"
+
+#: loggers/PluginUserSwitchingLogger.php:24
+msgctxt "PluginUserSwitchingLogger"
+msgid "Plugin: User Switching Logger"
+msgstr "Plugin: Registrador do User Switching"

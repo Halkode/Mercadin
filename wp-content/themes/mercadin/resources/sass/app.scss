@@ -1,0 +1,15 @@
+// Configs
+@import './config/variables';
+@import './config/fonts';
+@import './config/vendor';
+@import './config/utils';
+@import './config/general';
+
+// Pages
+@import './pages/home';
+
+//Partials
+@import './partials/menu';
+
+// Wordpress
+@import './config/wordpress';
