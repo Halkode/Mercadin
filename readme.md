@@ -25,38 +25,36 @@ Um repositório do projeto Mercadin, trabalho do Projeto Integrador, feito em Wo
 
 ## Instalação do template
 
-1. Clone o template e remova a pasta .git
+1Inicialize o repositório do projeto
 
-2. Inicialize o repositório do projeto
+2.Crie o banco de dados para o projeto
 
-3. Crie o banco de dados para o projeto
+3.Crie um vhost na sua máquina
 
-4. Crie um vhost na sua máquina
+4. Importe o dump inicial do template (`_dumps/mercadin.sql`) para esse banco
 
-5. Importe o dump inicial do template (`_dumps/mercadin.sql`) para esse banco
+5. Ajuste o `site_url` e a `home_url` na tabela `snts_options` inserindo a vhost criada
 
-6. Ajuste o `site_url` e a `home_url` na tabela `snts_options` inserindo a vhost criada
+6. Configure o arquivo `/wp-config.php` usando o `/wp-config-sample.php` como base
 
-7. Configure o arquivo `/wp-config.php` usando o `/wp-config-sample.php` como base
+7. Renomeie a pasta do tema para o nome do projeto
 
-8. Renomeie a pasta do tema para o nome do projeto
+8. Acesse o painel admin com o user `su.wp` e a senha `554655`
 
-9. Acesse o painel admin com o user `su.wp` e a senha `554655`
+9. Ative o tema, pois ele é desativado após renomear a pasta
 
-10. Ative o tema, pois ele é desativado após renomear a pasta
+10. Crie um novo usuário para o projeto, faça login nele e delete o `su.wp`
 
-11. Crie um novo usuário para o projeto, faça login nele e delete o `su.wp`
+11. Salve os links permanentes
 
-12. Salve os links permanentes
+12. Configure as informações do site na aba Configurações
 
-13. Configure as informações do site na aba Configurações
+13. Entre na pasta tema (cd wp-content/themes/mercadin) 
+    13.1. Execute `npm i` na pasta do tema
 
-14. Entre na pasta tema (cd wp-content/themes/mercadin) 
-    14.1. Execute `npm i` na pasta do tema
+14. Configure o arquivo `webpack.mix.js` na pasta do tema inserindo o vhost no campo proxy do browserSync
 
-15. Configure o arquivo `webpack.mix.js` na pasta do tema inserindo o vhost no campo proxy do browserSync
-
-16. Execute `npm run watch` na pasta do tema
+15. Execute `npm run watch` na pasta do tema
 
 ## Publicação por tags
 
