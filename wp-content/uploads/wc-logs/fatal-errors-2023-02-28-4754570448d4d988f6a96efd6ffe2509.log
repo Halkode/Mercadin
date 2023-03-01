@@ -1,0 +1,122 @@
+2023-02-28T02:37:22+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\front-page.php on line 304
+
+2023-02-28T02:56:21+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php:83
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\front-page.php(6): get_template_part('woocommerce/arc...')
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freela\mercadin\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\freela\mercadin\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php on line 83
+
+2023-02-28T21:15:20+00:00 CRITICAL syntax error, unexpected ''hide_empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php on line 107
+
+2023-02-28T23:30:26+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:30+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:49+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:50+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:50+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:51+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:52+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:30:57+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:02+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:08+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:18+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:28+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:38+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:38+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:48+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:31:58+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:03+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:08+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:18+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:27+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:38+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:42+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:43+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:43+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:46+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:48+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:32:58+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:08+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:18+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:28+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:38+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:40+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:48+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:33:57+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:03+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:07+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:18+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:28+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:38+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:43+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:44+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:44+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:47+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:48+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 32
+
+2023-02-28T23:34:58+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:35:07+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:35:17+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:35:27+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:35:38+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:35:41+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:36:00+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:36:01+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-02-28T23:59:44+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+

@@ -3,7 +3,7 @@
 <main class="main-container homepage">
     <?php
         get_template_part('partials/banner');
-	   
+        get_template_part('woocommerce/archive-product');
     ?>
 </main>
 

@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 
-	<div class="container">
-		<h1><?php _e( 'Página do Blog.' , 'snt-theme' ) ?></h1>
-	</div>
+<main class="main-container homepage">
+    <?php
+        get_template_part('partials/banner');
+        get_template_part('woocommerce/archive-product');
+    ?>
+</main>
 
 <?php get_footer(); ?>

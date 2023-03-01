@@ -5,17 +5,17 @@ window.$ = window.jQuery = jQuery;
 
 import 'popper.js';
 import 'bootstrap';
-// import 'slick-carousel';
-// import '@fancyapps/fancybox';
+import '@fancyapps/fancybox';
 // import 'plyr';
 // import 'aos';
 
-
+import produtoSearch from "./partials/produtoSearch";
 import menu from './partials/menu';
 
 ($ => {
     $(() => {
         menu();
+        produtoSearch();
     });
 })(jQuery);
 

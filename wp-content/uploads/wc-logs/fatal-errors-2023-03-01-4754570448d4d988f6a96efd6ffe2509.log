@@ -1,0 +1,88 @@
+2023-03-01T00:02:28+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-03-01T00:02:28+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 34
+
+2023-03-01T00:02:56+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 30
+
+2023-03-01T00:03:37+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 30
+
+2023-03-01T00:43:12+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to filter_products() must be an instance of WP_REST_Request, instance of WP_REST_Server given, called in C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php on line 308 and defined in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php:55
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): filter_products(Object(WP_REST_Server))
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(535): rest_get_server()
+#5 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#6 [internal function]: rest_preload_api_request(Array, '/wc-analytics/r...')
+# in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 55
+
+2023-03-01T00:46:57+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to filter_products() must be an instance of WP_REST_Request, instance of WP_REST_Server given, called in C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php on line 308 and defined in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php:55
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): filter_products(Object(WP_REST_Server))
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(535): rest_get_server()
+#5 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#6 [internal function]: rest_preload_api_request(Array, '/wc-analytics/r...')
+# in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 55
+
+2023-03-01T00:53:33+00:00 CRITICAL Uncaught Error: Call to a member function get_param() on null in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php:72
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\index.php(6): get_template_part('woocommerce/arc...')
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freela\mercadin\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\freela\mercadin\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php on line 72
+
+2023-03-01T00:53:38+00:00 CRITICAL Uncaught Error: Call to a member function get_param() on null in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php:72
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\index.php(6): get_template_part('woocommerce/arc...')
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freela\mercadin\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\freela\mercadin\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php on line 72
+
+2023-03-01T00:54:04+00:00 CRITICAL Uncaught Error: Call to a member function get_param() on null in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php:72
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\index.php(6): get_template_part('woocommerce/arc...')
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freela\mercadin\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\freela\mercadin\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\archive-product.php on line 72
+
+2023-03-01T01:01:57+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to filter_products() must be an instance of WP_REST_Request, instance of WP_REST_Server given, called in C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php on line 308 and defined in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php:55
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): filter_products(Object(WP_REST_Server))
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(403): rest_get_server()
+#5 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_fi in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 55
+
+2023-03-01T01:02:04+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to filter_products() must be an instance of WP_REST_Request, instance of WP_REST_Server given, called in C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php on line 308 and defined in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php:55
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): filter_products(Object(WP_REST_Server))
+#1 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\rest-api.php(403): rest_get_server()
+#5 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_fi in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 55
+
+2023-03-01T01:02:26+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\inc\api\products.php on line 33
+

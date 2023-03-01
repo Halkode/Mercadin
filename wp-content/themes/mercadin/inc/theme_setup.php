@@ -98,3 +98,19 @@ function posts_custom_columns($column_name, $id) {
 // End custom image column admin
 
 
+
+function customize_product_query( $q ) {
+    $tax_query = $q->get( 'tax_query' );
+
+    $subTaxQuery = [];
+    $subTaxQuery['relation'] = "OR";
+
+    if ( isset($_GET['in_categories']) ) {
+        $subTaxQuery[] = array( 'taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => $_GET['in_categories'], 'operator' => 'IN' );
+    }
+    
+    $tax_query[] = $subTaxQuery;
+
+    $q->set( 'tax_query', $tax_query );
+}
+add_action( 'woocommerce_product_query', 'customize_product_query' );

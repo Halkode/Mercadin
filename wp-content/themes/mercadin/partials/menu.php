@@ -10,19 +10,27 @@
                     Enviar para
                     <span>CEP</span>
                 </div>
-                <ul class="main-nav col-lg-8">
+                <ul class="main-nav col-lg-7">
                     <li class="search">
-                        <form action="<?php echo base_url(); ?>">
-                            <input
-                                    type="search"
-                                    class="form-control search-input"
-                                    name="s"
-                                    required
-                                    placeholder="<?php _e('Digite o que está procurando...', 'template'); ?>"
-                            >
+                        <form action="<?php echo base_url(); ?>" method="GET">
+                            <div class="barrabusca">
+                                <div id="divBusca" class="">
+                                    <input type="search" name="s" class="form-control search-input" id="txtBusca"
+                                        placeholder="Olá,o que você procura? " value="<?php echo get_search_query(true) ?>" />
+                                </div>
+                            </div>
+                            <input type="hidden" name="post_type" value="product">
+                            <div id="results-search">
+
+                            </div>
                         </form>
                     </li>
                 </ul>
+                <div >
+                    <a href="<?php echo base_url('minha-conta'); ?>" class="navlink">
+                        <img src="<?php echo image("logged.svg") ?>" class="logologin regular" alt="">
+                    </a>
+                </div>
             </div>
             <div class="nav-wrapper justify-content-center">
                 <?php
