@@ -69,7 +69,6 @@ get_header( 'shop' ); ?>
     <div class="container">
         <div class="row list-top">
             <?php
-                   
                     $args = [
                         'post_type'      => 'product',
                         'posts_per_page' => 4,

@@ -22,4 +22,8 @@
 
 <body <?php body_class(); ?>>
     <div id="app">
+    <?php if(!is_user_logged_in()): ?>
+        <?php get_template_part('partials/menu-login') ?>
+    <?php else : ?>
         <?php get_template_part('partials/menu') ?>
+    <?php endif; ?>
