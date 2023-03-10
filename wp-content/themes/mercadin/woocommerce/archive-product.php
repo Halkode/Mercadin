@@ -82,6 +82,15 @@ get_header( 'shop' ); ?>
                             ],
                         ];
                     }
+                    if ( !empty($cat->slug)  ) {
+                        $args['tax_query'] = [
+                            [
+                                'taxonomy' 	=> 'product_cat',
+                                'field' 		=> 'slug',
+                                'terms' 		=> $cat->slug
+                            ],
+                        ];
+                    }
                     $posts = new WP_Query($args);
                 ?>
                 <?php if ( $posts->have_posts() ) : ?>
@@ -101,6 +110,8 @@ get_header( 'shop' ); ?>
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
                     <?php wp_reset_query(); ?>
+              
+
                 <?php endif; ?>
         </div>
         <div class="row">
@@ -177,7 +188,15 @@ get_header( 'shop' ); ?>
                         'posts_per_page' => 2,
                         'offset'         => 4
                     ];
-            
+                    if ( !empty($cat->slug)  ) {
+                        $args['tax_query'] = [
+                            [
+                                'taxonomy' 	=> 'product_cat',
+                                'field' 		=> 'slug',
+                                'terms' 		=> $cat->slug
+                            ],
+                        ];
+                    }
                     $posts = new WP_Query($args);
                 ?>
                 <?php if ( $posts->have_posts() ) : ?>
@@ -198,6 +217,11 @@ get_header( 'shop' ); ?>
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
                     <?php wp_reset_query(); ?>
+                <?php elseif ( !empty($cat->slug  ) ) : ?>
+                    <p class="text-center" style="font-size: 25px;">
+                        <img style=" height:55px; " src="<?php echo asset('img/error.svg'); ?>" alt="">
+                        Não foi encontrado nenhum resultado
+                    </p>
                 <?php endif; ?>
             </div>
         </div>
