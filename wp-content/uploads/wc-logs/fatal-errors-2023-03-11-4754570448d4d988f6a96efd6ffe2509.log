@@ -1,0 +1,11 @@
+2023-03-11T17:14:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\myaccount\dashboard.php:29
+Stack trace:
+#0 C:\xampp\htdocs\freela\mercadin\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\freela\mercadin\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3197): wc_get_template('myaccount/dashb...', Array)
+#2 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(308): woocommerce_account_content('')
+#3 C:\xampp\htdocs\freela\mercadin\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\freela\mercadin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\myaccount\my-account.php(13): do_action('woocommerce_acc...')
+#6 C:\xampp\htdocs\freela\mercadin\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xam in C:\xampp\htdocs\freela\mercadin\wp-content\themes\mercadin\woocommerce\myaccount\dashboard.php on line 29
+

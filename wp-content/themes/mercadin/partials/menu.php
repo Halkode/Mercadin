@@ -1,7 +1,7 @@
 <header class="main-header">
     <div class="container-fluid">
         <div class="header-content">
-            <div class="nav-wrapper mb-3">
+            <div class="nav-wrapper mb-3 disable-mobile">
                 <a href="<?php echo home_url(); ?>" class="logo">
                     <img src="<?php echo image('logo.svg'); ?>" alt="<?php echo bloginfo('name'); ?>">
                 </a>
@@ -32,14 +32,25 @@
                     </a>
                 </div>
             </div>
-            <div class="nav-wrapper justify-content-center">
+            <div class="nav-wrapper <?php echo wp_is_mobile()? ' ' : 'justify-content-center';?> ">
+                <?php if(wp_is_mobile() ) :    ?>
+                    <a href="<?php echo home_url(); ?>" class="logo">
+                        <img src="<?php echo image('logo.svg'); ?>" alt="<?php echo bloginfo('name'); ?>">
+                    </a>
+                <?php endif; ?>    
+
                 <?php
                     $items = wp_get_nav_menu_items('menu-principal');
                     
                     if (!empty($items)) :
                         $formattedItems = buildTree($items);
                 ?>
+                    
                     <div class="d-flex h-100 align-items-center d-md-none">
+                            <a href="<?php echo base_url('minha-conta'); ?>" class="navlink">
+                                <img src="<?php echo image("logged.svg") ?>" class="logologin regular" alt="">
+                            </a>
+
                         <button class="btn toggle-mobile-menu">
                             <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 200 200">
                                 <g stroke-width="6.5" stroke-linecap="round">

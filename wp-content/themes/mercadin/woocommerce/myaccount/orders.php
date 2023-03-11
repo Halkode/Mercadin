@@ -21,15 +21,6 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_account_orders', $has_orders ); ?>
 
-<?php get_header(); ?>
-
-<section class="container-product-slider cart-details container">
-    <div class="text">
-        <p class="p-0">Eu desejo uma vida leve</p>
-        <h1 class="d-block m-auto"><?php  _e('Meus Pedidos') ?></h1>
-    </div>
-</section>
-<div class="block-space" style="--data-padding: 100px"></div>
 <section class="cart-details mb-5">
     <div class="container">
         <div class="row">

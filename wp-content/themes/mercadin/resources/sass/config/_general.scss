@@ -47,7 +47,24 @@ input::-moz-focus-inner {
     }
 }
 
-
+.search-results {
+    .card-product {
+        width: 100%;
+        display: block;
+        background: #FFFFFF;
+        border: 1px solid #AEAEAE;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        text-align: center;
+        height: 250px;
+        padding: 15px;
+        .overflow-hidden {
+            img {
+                max-height: 150px;
+            }
+        }
+    }
+}
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -68,4 +85,10 @@ input::-moz-focus-inner {
     background-color: #b3b3b3;
     border-radius: 10px;
     border: 3px solid #ffffff;
+  }
+  .woo_submit_search_form_container {
+    display: none;
+  }
+  .simplefavorite-button {
+    border: none;
   }

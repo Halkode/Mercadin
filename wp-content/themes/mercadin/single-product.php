@@ -19,9 +19,10 @@
                         <img src="<?php the_post_thumbnail_url() ?>" alt="">
                     </div>
                 </div>
-                <h3 class="title-product"><?php the_title(); ?></h3>
+                <h3 class="title-product"><?php the_title(); ?> <?php echo do_shortcode('[favorite_button]') ?></h3>
+             
                 <form action="<?php the_permalink(); ?>" method="GET"  class="row">
-                    <div class="price-product col-12 col-lg-4">
+                    <div class="price-product col-5 col-lg-4">
                         <?php 
                             $preco_produto = $product->get_regular_price(); 
                             $promo_produto = $product->get_sale_price(); 
@@ -32,16 +33,17 @@
                                 <span class="line-through">R$ <?php echo $preco_produto ?></span>
                             </h5>
                         <?php endif; ?>
-                        <h5 class="price-second">R$ <?php echo $preco_final_produto ?></h5>
+                        <h5 class="price-second" data-price="<?php echo $preco_final_produto ?>" >R$ <?php echo $preco_final_produto ?></h5>
                     </div>
-                    <div class="button-add-product col-12 col-lg-7 p-0">
+                    
+                    <div class="button-add-product col-6 col-lg-7 p-0 d-flex justify-content-center">
                         <div class="input-group inline-group row">
                             <div class="input-change-quanty input-group-prepend col-3 p-0">
                                 <button type="button" class="btn btn-outline-secondary btn-minus w-100">
                                     <i class="fa fa-minus"></i>
                                 </button>
                             </div>
-                            <input class="form-control quantity" min="0" name="quantity" value="1" type="number">
+                            <input class="form-control quantity" min="0" data-quantity="1"  name="quantity" value="1" type="number">
                             <div class="input-change-quanty input-group-append  col-3 p-0">
                                 <button type="button" class="btn btn-outline-secondary btn-plus w-100">
                                     <i class="fa fa-plus"></i>
@@ -55,7 +57,7 @@
                     </div>     
                 </form>
             </div>
-            <div class="informations-products col-12 col-lg-7 offset-1">
+            <div class="informations-products col-12 col-lg-7 offset-lg-1">
                 <div class="row">
                     <div class="content-description col-12 col-lg-8">
                         <h2 class="title-description">

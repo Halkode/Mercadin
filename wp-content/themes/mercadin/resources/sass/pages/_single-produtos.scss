@@ -1,6 +1,10 @@
 #singleProducts {
     margin-top: 98px;
     margin-bottom: 100px;
+    @include breakpoint (md) {
+        margin-top: 25px;
+        padding: 10px;
+    }
     .woocommerce-message {
         width: 100%;
     }
@@ -35,6 +39,9 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 25px;
         background-color: #fff;
+        @include breakpoint (md) {
+            margin-top: 30px;
+        }
         .content-informations {
             p.categorys {
                 font-style: normal;

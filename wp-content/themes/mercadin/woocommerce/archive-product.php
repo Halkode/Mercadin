@@ -82,14 +82,23 @@ get_header( 'shop' ); ?>
                             ],
                         ];
                     }
+                    if ( !empty($cat->slug)  ) {
+                        $args['tax_query'] = [
+                            [
+                                'taxonomy' 	=> 'product_cat',
+                                'field' 		=> 'slug',
+                                'terms' 		=> $cat->slug
+                            ],
+                        ];
+                    }
                     $posts = new WP_Query($args);
                 ?>
                 <?php if ( $posts->have_posts() ) : ?>
                     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
                         <?php $title = get_the_title(); ?>
                         <?php $cap = get_the_post_thumbnail_caption(); ?>
-                        <div class="col-lg-3 card-product">
-                            <a href="<?php echo get_the_permalink(); ?>" class="hover-transform">
+                        <div class="col-lg-3 ">
+                            <a href="<?php echo get_the_permalink(); ?>" class="hover-transform card-product">
                                 <div class="overflow-hidden">
                                     <img src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : image('placeholder.svg'); ?>" alt="<?php echo ($cap) ? $cap : $title; ?>" class="img-fluid" />
                                 </div>
@@ -101,6 +110,8 @@ get_header( 'shop' ); ?>
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
                     <?php wp_reset_query(); ?>
+              
+
                 <?php endif; ?>
         </div>
         <div class="row">
@@ -174,30 +185,51 @@ get_header( 'shop' ); ?>
                 <?php
                     $args = [
                         'post_type'      => 'product',
-                        'posts_per_page' => 2,
+                        'posts_per_page' => 8,
                         'offset'         => 4
                     ];
-            
+                    if ($_GET['in_categories']) {
+                        $args['tax_query'] = [
+                            [
+                                'taxonomy' 	=> 'product_cat',
+                                'field' 		=> 'slug',
+                                'terms' 		=> $_GET['in_categories']
+                            ],
+                        ];
+                    }
+                    if ( !empty($cat->slug)  ) {
+                        $args['tax_query'] = [
+                            [
+                                'taxonomy' 	=> 'product_cat',
+                                'field' 		=> 'slug',
+                                'terms' 		=> $cat->slug
+                            ],
+                        ];
+                    }
                     $posts = new WP_Query($args);
                 ?>
                 <?php if ( $posts->have_posts() ) : ?>
                     <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
                         <?php $title = get_the_title(); ?>
                         <?php $cap = get_the_post_thumbnail_caption(); ?>
-                        <div class="col-lg-4 card-product">
-                            <a href="<?php echo get_the_permalink(); ?>" class="hover-transform">
+                        <div class="col-lg-4">
+                            <a href="<?php echo get_the_permalink(); ?>" class="hover-transform  card-product">
                                 <div class="overflow-hidden">
                                     <img src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : image('placeholder.svg'); ?>" alt="<?php echo ($cap) ? $cap : $title; ?>" class="img-fluid" />
                                 </div>
                                 <h2 class="blog-featured-title">
                                     <?php echo $title; ?>
                                 </h2>
-                                <div class="btt btt-primary blog-featured-button">Ver mais</div>
                             </a>
                         </div>
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
                     <?php wp_reset_query(); ?>
+                <?php elseif ( !empty($cat->slug  ) && empty($posts) ) : ?>
+                    <p class="text-center" style="font-size: 25px;">
+                        <img style=" height:55px; " src="<?php echo asset('img/error.svg'); ?>" alt="">
+                        Não foi encontrado nenhum resultado
+                    </p>
                 <?php endif; ?>
             </div>
         </div>
